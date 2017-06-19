@@ -1,10 +1,4 @@
 ---
-- curated_id: c69b95895113c9f69651c5f222203114
-  item_date: "2012-05-16 17:44:19"
-  title: 'Iron.io Blog: Iron.io Releases IronCache (Beta)'
-  url: http://www.iron.io/blog/ironio-releases-ironcache
-  domain: www.iron.io
-  image: ""
 - curated_id: a59eee0198ede2fc2a9cfe3deff74662
   item_date: "2015-01-07 00:00:00"
   title: 'Factual Featured Partner: Snips'
@@ -75,6 +69,68 @@
   item_date: "2016-10-14 00:00:00"
   title: Caching for Faster APIs
   url: https://dzone.com/articles/caching-for-faster-apis
+  domain: dzone.com
+  image: ""
+- curated_id: ae9b8b32ad1bed08ebb4f7c4ec0a6c2c
+  item_date: "2017-01-10 00:00:00"
+  title: Token Authentication for Cached Private Content and APIs
+  url: https://blog.cloudflare.com/token-authentication-for-cached-private-content-and-apis/
+  domain: blog.cloudflare.com
+  image: ""
+- curated_id: 7d86ae8e269dd007da23cce1a560b0ff
+  item_date: "2017-01-10 05:52:58"
+  title: 'Tweet: Token Authentication for Cached Private Content and APIs: https://t.co/iKVvFdA3Gx
+    https://t.co/Ku3B7FSzsL'
+  url: https://twitter.com/Cloudflare/statuses/818817913067106304
+  domain: twitter.com
+  image: ""
+- curated_id: d73fb681b9c60da6fc9dd68409cfc549
+  item_date: "2017-01-12 00:00:00"
+  title: Compute Performance Improvements  Magic of Caching
+  url: http://keenio.tumblr.com/post/155772589226/compute-performance-improvements-magic-of#_=_
+  domain: keenio.tumblr.com
+  image: ""
+- curated_id: 100f862612a043051a3a726a3661e3f3
+  item_date: "2017-01-31 00:00:00"
+  title: IPv6 Neighbor Discovery Cache - Part 1 (of 2)
+  url: https://community.infoblox.com/t5/IPv6-Center-of-Excellence/IPv6-Neighbor-Discovery-Cache-Part-1-of-2/ba-p/8892
+  domain: community.infoblox.com
+  image: ""
+- curated_id: 570f440e30e98beb72134f08d6573e35
+  item_date: "2017-02-06 00:00:00"
+  title: "Caching for Non-Web Applications \u2013 Part 1"
+  url: https://www.codeproject.com/Articles/1169312/Caching-for-Non-Web-Applications-Part
+  domain: www.codeproject.com
+  image: ""
+- curated_id: 9dafbf00ee990c5ae55a6c5abfebda5e
+  item_date: "2017-02-06 00:00:00"
+  title: "What\u2019s in an AMP URL?"
+  url: https://developers.googleblog.com/2017/02/whats-in-amp-url.html
+  domain: developers.googleblog.com
+  image: ""
+- curated_id: 9bba118555e98817d81e087d5f7b4f62
+  item_date: "2017-03-21 00:00:00"
+  title: Amazon ElastiCache Launches Enhanced Redis Backup and Restore with Cluster
+    Resizing
+  url: https://aws.amazon.com/blogs/aws/launch-amazon-elasticache-launches-enhanced-redis-backup-and-restore-with-cluster-resizing/
+  domain: aws.amazon.com
+  image: ""
+- curated_id: 557af12507b69792846226ace2a92511
+  item_date: "2017-04-14 00:00:00"
+  title: Understanding Our Cache and the Web Cache Deception Attack
+  url: https://blog.cloudflare.com/understanding-our-cache-and-the-web-cache-deception-attack/
+  domain: blog.cloudflare.com
+  image: ""
+- curated_id: 9bf28b87dbc787c88ce56c571086cc4f
+  item_date: "2017-04-17 00:00:00"
+  title: Heres Why You Should Never Implement Your Own Caching
+  url: https://dzone.com/articles/heres-why-you-should-never-implement-your-own-cach
+  domain: dzone.com
+  image: ""
+- curated_id: 93cd15dd0b3f957fcecc337d72c11c3f
+  item_date: "2017-05-03 00:00:00"
+  title: The Impact of Web Caching
+  url: https://dzone.com/articles/the-impact-of-web-caching
   domain: dzone.com
   image: ""
 ...
