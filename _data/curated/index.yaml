@@ -674,17 +674,17 @@
   url: http://blogs.mulesoft.com/dev/integrating-mule-esb-net-based-rules-engines/
   domain: blogs.mulesoft.com
   image: ""
-- curated_id: 37a3c06d72eb59f098c847b5dc305918
-  item_date: "2014-08-20 00:00:00"
-  title: A drive by review of the Uber API
-  url: http://www.bizcoder.com:80/a-drive-by-review-of-the-uber-api
-  domain: www.bizcoder.com
-  image: ""
 - curated_id: f91d38bc30b0531338aee79fed15d1f5
   item_date: "2014-08-20 00:00:00"
   title: MuleSoft Summit Heads to Chicago  New York
   url: http://blogs.mulesoft.com/biz/events/mulesoft-summit-chicago-new-york/
   domain: blogs.mulesoft.com
+  image: ""
+- curated_id: 37a3c06d72eb59f098c847b5dc305918
+  item_date: "2014-08-20 00:00:00"
+  title: A drive by review of the Uber API
+  url: http://www.bizcoder.com:80/a-drive-by-review-of-the-uber-api
+  domain: www.bizcoder.com
   image: ""
 - curated_id: b39d33b47c455eb0e55ecf81c25c4f2c
   item_date: "2014-08-21 00:00:00"
@@ -861,18 +861,18 @@
   url: http://apievangelist.com/2015/02/23/my-brain-dump-on-an-api-definition-fueled-life-cycle/
   domain: apievangelist.com
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/apievangelist-com20150223my-brain-dump-on-an-api-definition-fueled-life-cycle.png
-- curated_id: WXEPw9cCbvMXv1FtrHPV21YK123pg7IpvxwNVbn8PnA6C9MzT9Fb6tYlJbpXwj0hiGvVH6NR4GpVeqL0svws88eQ117117
-  item_date: "2015-02-24 00:00:00"
-  title: Metadesign The intersection of art design and computation
-  url: http://radar.oreilly.com/2015/02/meta-design-the-intersection-of-art-design-and-computation.html
-  domain: radar.oreilly.com
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/radar-oreilly-com201502meta-design-the-intersection-of-art-design-and-computation-html.png
 - curated_id: n116g1239fmX8E123QXLOUbsnTfv5JSdGYHkYwt2VKOcW3Q1123oQnKVZ1ae8eYv4bU5wFJEss116UYsx5AA90Z72ODhyMEQ117117
   item_date: "2015-02-24 00:00:00"
   title: What Makes an Agile API
   url: http://nordicapis.com/what-makes-an-agile-api/
   domain: nordicapis.com
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/nordicapis-comwhat-makes-an-agile-api.png
+- curated_id: WXEPw9cCbvMXv1FtrHPV21YK123pg7IpvxwNVbn8PnA6C9MzT9Fb6tYlJbpXwj0hiGvVH6NR4GpVeqL0svws88eQ117117
+  item_date: "2015-02-24 00:00:00"
+  title: Metadesign The intersection of art design and computation
+  url: http://radar.oreilly.com/2015/02/meta-design-the-intersection-of-art-design-and-computation.html
+  domain: radar.oreilly.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/radar-oreilly-com201502meta-design-the-intersection-of-art-design-and-computation-html.png
 - curated_id: M3SzrZP3tXIBiyLw7ArriQ5uys04RtDs0xKGSp28b8ODwZIvkWpZ123uz5pT1wdMiI2D2xTze65Bu6S2rmUv123CRQ117117
   item_date: "2015-02-26 10:33:06"
   title: Bizcoder  Dont Design A Query String You Will One Day Regret
@@ -891,18 +891,18 @@
   url: http://apihandyman.io/hypermedia-api-maturity-model-part-i-hypermedia-ness/
   domain: apihandyman.io
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/apihandyman-iohypermedia-api-maturity-model-part-i-hypermedia-ness.png
-- curated_id: YS6zKe0TwWqSzPI123HfarhQvjhvVGqwgliCpMuTM2GSFPEZqIwLVRgykSdArZPWMT9ptBU116yzs3J8V5ojR28IHA117117
-  item_date: "2015-03-02 00:00:00"
-  title: Dropbox starts using POST and why this is poor API design
-  url: https://evertpot.com/dropbox-post-api/
-  domain: evertpot.com
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/evertpot-comdropbox-post-api.png
 - curated_id: r9DeihR4jE4glOUzaSnNTaX5oh123lZpzfrzkakfpmUMysbQUHZMzJTKwiAVV9RdIhNy7vpaqxOSApSsnl350cHg117117
   item_date: "2015-03-02 00:00:00"
   title: Common Cases When Using SOAP Makes Sense
   url: http://nordicapis.com/common-cases-when-using-soap-makes-sense/
   domain: nordicapis.com
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/nordicapis-comcommon-cases-when-using-soap-makes-sense.png
+- curated_id: YS6zKe0TwWqSzPI123HfarhQvjhvVGqwgliCpMuTM2GSFPEZqIwLVRgykSdArZPWMT9ptBU116yzs3J8V5ojR28IHA117117
+  item_date: "2015-03-02 00:00:00"
+  title: Dropbox starts using POST and why this is poor API design
+  url: https://evertpot.com/dropbox-post-api/
+  domain: evertpot.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/evertpot-comdropbox-post-api.png
 - curated_id: NqEOF35123CWDlvXN6SqCYmB60Cxn9VyXJ3lHlwRZEhfXg116f2ODCuP1k42qMOhoaubBdhd93T1Wvz9b116XeO5vtGw117117
   item_date: "2015-03-02 11:37:39"
   title: ApplicationLevel Profile Semantics ALPS
@@ -915,18 +915,18 @@
   url: http://radar.oreilly.com/2015/02/meta-design-the-intersection-of-art-design-and-computation.html
   domain: radar.oreilly.com
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/radar-oreilly-com201502meta-design-the-intersection-of-art-design-and-computation-html.png
-- curated_id: p8tPzwzIDnd123tqNr8eWRjAV3GVqJaEIBsL8SeFZkHWrLO87MfjTdo3P2vRbEynyMZXKLSfgmZWsnRLytkwgNdA117117
-  item_date: "2015-03-03 00:00:00"
-  title: Dropbox Sparks Controversy With API Design Decision
-  url: http://www.programmableweb.com/news/dropbox-sparks-controversy-api-design-decision/analysis/2015/03/03
-  domain: www.programmableweb.com
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/www-programmableweb-comnewsdropbox-sparks-controversy-api-design-decisionanalysis20150303.png
 - curated_id: nPPSlUd3ATGDOhS45IbSlt1165BiAQ123OSoVTjdJR9NPlQSE8930I0DO9x123oMTA3fa4HMRIe2q5lfdSdm0EccqQfA117117
   item_date: "2015-03-03 00:00:00"
   title: My API Design Research
   url: http://apievangelist.com/2015/03/04/my-api-design-research/
   domain: apievangelist.com
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/apievangelist-com20150304my-api-design-research.png
+- curated_id: p8tPzwzIDnd123tqNr8eWRjAV3GVqJaEIBsL8SeFZkHWrLO87MfjTdo3P2vRbEynyMZXKLSfgmZWsnRLytkwgNdA117117
+  item_date: "2015-03-03 00:00:00"
+  title: Dropbox Sparks Controversy With API Design Decision
+  url: http://www.programmableweb.com/news/dropbox-sparks-controversy-api-design-decision/analysis/2015/03/03
+  domain: www.programmableweb.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/www-programmableweb-comnewsdropbox-sparks-controversy-api-design-decisionanalysis20150303.png
 - curated_id: Bcy116FXbG5lFaou123Bq5VZbnj70mgPMsNZpkHyJKePfrmiR116yIzCrcoMIdqzij42UnYGym312jRv7PNLW2P0vN6w117117
   item_date: "2015-03-03 10:39:40"
   title: Apigee Product Highlight Video SmartDocs
@@ -951,6 +951,12 @@
   url: http://apievangelist.com/2015/03/07/we-need-an-open-library-of-the-most-common-utility-api-implementations/
   domain: apievangelist.com
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/apievangelist-com20150307we-need-an-open-library-of-the-most-common-utility-api-implementations.png
+- curated_id: P123Lr1g8NW7vIDkK8Uck2FMoLTvFqh1k7xXuaxSUhUnQuXhYWVETqA7Zky3Sj0TRxxsaddroCKTvzazOQjFSq6g117117
+  item_date: "2015-03-09 00:00:00"
+  title: Ideal REST API design  betim drenicas blog
+  url: https://betimdrenica.wordpress.com/2015/03/09/ideal-rest-api-design/
+  domain: betimdrenica.wordpress.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/betimdrenica-wordpress-com20150309ideal-rest-api-design.png
 - curated_id: gbfpHt0Jwf3HoWH356OoyJK6TNHO1236bulVYUI1X7fpmZ2tLVGLDEs18CyjQKjzjEixOmf9Y70V511681IKrUDOgg117117
   item_date: "2015-03-09 00:00:00"
   title: Targeting Some APIs In My Stack For House Cleaning And Maybe Some Design
@@ -958,12 +964,6 @@
   url: http://apievangelist.com/2015/03/10/targeting-some-apis-in-my-stack-for-house-cleaning-and-maybe-some-design-iterations/
   domain: apievangelist.com
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/apievangelist-com20150310targeting-some-apis-in-my-stack-for-house-cleaning-and-maybe-some-design-iterations.png
-- curated_id: P123Lr1g8NW7vIDkK8Uck2FMoLTvFqh1k7xXuaxSUhUnQuXhYWVETqA7Zky3Sj0TRxxsaddroCKTvzazOQjFSq6g117117
-  item_date: "2015-03-09 00:00:00"
-  title: Ideal REST API design  betim drenicas blog
-  url: https://betimdrenica.wordpress.com/2015/03/09/ideal-rest-api-design/
-  domain: betimdrenica.wordpress.com
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/betimdrenica-wordpress-com20150309ideal-rest-api-design.png
 - curated_id: KifJPHJjge116hzyNwyAPGw6RcPJ28rB1232hRPvkVRxsVRiP3aBPqPIi9rDLULK9BozVBsy0HhANdyhMtGjTvc03w117117
   item_date: "2015-03-10 00:00:00"
   title: Facebook Applies Versioning Strategy to Marketing API
@@ -1176,12 +1176,6 @@
   url: http://restlet.com/blog/2015/05/20/restlet-and-smartbear-partner-to-deliver-restlet-studio-plugin-for-ready-api/
   domain: restlet.com
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/restlet-comblog20150520restlet-and-smartbear-partner-to-deliver-restlet-studio-plugin-for-ready-api.png
-- curated_id: aSdL9MjYhohCUm22j7gioM123xw9NVf5j952Lu80Elw32J8wGj8ePV24T2zSEQAvUYliq1qZuYPHNl9CPl8nbNjQ117117
-  item_date: "2015-05-21 00:00:00"
-  title: Apigee adds some Swagger to API design
-  url: http://www.pcadvisor.co.uk/news/software/apigee-adds-some-swagger-to-api-design-3612750/
-  domain: www.pcadvisor.co.uk
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/www-pcadvisor-co-uknewssoftware3612750apigee-adds-some-swagger-to-api-design.png
 - curated_id: 0RlbclclakYqrpBkU1116CCDN6IbxoulxNCGvTLxNE8P1qJSRIwHMIPiIH0diua4OP116MJnWyKkQf6zf0116jZiWhYw117117
   item_date: "2015-05-21 00:00:00"
   title: Apigee API Studio Designing Testing and Sharing APIs
@@ -1194,12 +1188,12 @@
   url: http://nordicapis.com/7-api-design-lessons-world-tour-roundup/
   domain: nordicapis.com
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/nordicapis-com7-api-design-lessons-world-tour-roundup.png
-- curated_id: 244120e80771f3be62318be93e3a78b2
-  item_date: "2015-05-26 00:00:00"
-  title: The New York Times uses Varnish so news doesn?t break their servers
-  url: https://www.varnish-software.com/blog/new-york-times-uses-varnish-so-news-doesn%E2%80%99t-break-their-servers
-  domain: www.varnish-software.com
-  image: ""
+- curated_id: aSdL9MjYhohCUm22j7gioM123xw9NVf5j952Lu80Elw32J8wGj8ePV24T2zSEQAvUYliq1qZuYPHNl9CPl8nbNjQ117117
+  item_date: "2015-05-21 00:00:00"
+  title: Apigee adds some Swagger to API design
+  url: http://www.pcadvisor.co.uk/news/software/apigee-adds-some-swagger-to-api-design-3612750/
+  domain: www.pcadvisor.co.uk
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/www-pcadvisor-co-uknewssoftware3612750apigee-adds-some-swagger-to-api-design.png
 - curated_id: E9EtiV1169XNQe1kCC82mNbfy9COKD123Hg4UYKSOPgAE9guxhW7riNevMV0j123O796ixpYtcqn9YorIQIqEpe116h8FQ117117
   item_date: "2015-05-26 00:00:00"
   title: RESTful API Design Part III Error Handling
@@ -1528,12 +1522,6 @@
   url: http://www.programmableweb.com/news/apiary.io-now-features-swagger-support/brief/2016/01/19
   domain: www.programmableweb.com
   image: ""
-- curated_id: 1e24786efcc466ca41554954161cbd5f
-  item_date: "2016-01-21 00:00:00"
-  title: Smart and Efficient Byte-Range Caching with NGINX  NGINX Plus
-  url: https://www.nginx.com/blog/smart-efficient-byte-range-caching-nginx/
-  domain: www.nginx.com
-  image: ""
 - curated_id: LdEjivBOKDGP6fyrgDbtpSMKX5Vn3iKzWMVYX1168UW116aP06giaaYrQkG4X3lCnrHHQ0hDqouYNCsI8rPdWRfDYA117117
   item_date: "2016-01-21 00:00:00"
   title: Paging in ASPNET Web API
@@ -1545,12 +1533,6 @@
   title: Reverse Engineering APIs From The Common APIs Models We Know
   url: http://apievangelist.com/2016/01/25/reverse-engineering-apis-from-the-common-apis-models-we-know/
   domain: apievangelist.com
-  image: ""
-- curated_id: d3147dfd1e183b6eb34947322da74fcc
-  item_date: "2016-01-27 00:00:00"
-  title: Cache Placement Strategies for NGINX and NGINX Plus
-  url: https://www.nginx.com/blog/cache-placement-strategies-nginx-plus/
-  domain: www.nginx.com
   image: ""
 - curated_id: 6x0ztLyB292jv7qV5HPc2E123H62DrT4z7bu3wGTKHg5ai0f7KAdXeJ1wb86S0Xn3kR3l9kHJsfWmZv1UwZk0jOw117117
   item_date: "2016-01-29 00:00:00"
@@ -1600,17 +1582,17 @@
   url: https://dzone.com/articles/dear-api-designer-are-you-sure-you-want-to-return
   domain: dzone.com
   image: ""
-- curated_id: osVw1gFKugfHVMaC8zTw9Ya116ho123n4ic3FC9sFeUK28BZSaypdwnbmhRMt7z99GtHDv116s1yWNL3KPT123xvadlZJg117117
-  item_date: "2016-02-17 00:00:00"
-  title: Why Github039s Scientist 10 Could Be Great for API Versioning
-  url: http://www.programmableweb.com/news/why-githubs-scientist-1.0-could-be-great-api-versioning/analysis/2016/02/17
-  domain: www.programmableweb.com
-  image: ""
 - curated_id: hiLirbaQ4NlZkTXhYQhipgDJg116pqSEQzbf123DYPMRUGrD5123TZb1anvAoXlJwgsuZWHDY6p116JkDa4kZMBDtNFSrg117117
   item_date: "2016-02-17 00:00:00"
   title: Resolving the FrontendBackend API Design Conflict
   url: http://launchany.com/resolving-the-frontendbackend-api-design-conflict/
   domain: launchany.com
+  image: ""
+- curated_id: osVw1gFKugfHVMaC8zTw9Ya116ho123n4ic3FC9sFeUK28BZSaypdwnbmhRMt7z99GtHDv116s1yWNL3KPT123xvadlZJg117117
+  item_date: "2016-02-17 00:00:00"
+  title: Why Github039s Scientist 10 Could Be Great for API Versioning
+  url: http://www.programmableweb.com/news/why-githubs-scientist-1.0-could-be-great-api-versioning/analysis/2016/02/17
+  domain: www.programmableweb.com
   image: ""
 - curated_id: 0OSxMK09116K3SCioB0NMqBXstRka123czJIG7eBex00tkXiUfx6kcramPTB123NSNIJ7ZN39UjsZxfHX6jFgUyA123b123A117117
   item_date: "2016-02-17 10:52:18"
@@ -1709,29 +1691,11 @@
   url: http://everydeveloper.com/great-apis-one-thing/
   domain: everydeveloper.com
   image: ""
-- curated_id: 6e60dc111c5e7e84a48940584ce9986d
-  item_date: "2016-03-24 00:00:00"
-  title: Caching In Web API
-  url: http://www.codeproject.com/Articles/1087902/Caching-In-Web-API
-  domain: www.codeproject.com
-  image: ""
-- curated_id: 31327840eba5aa30a78fbf79881ebfa2
-  item_date: "2016-03-28 00:00:00"
-  title: Picking the Right Caching Tier for Your Database
-  url: https://dzone.com/articles/in-progress-picking-the-right-caching-tier-for-you
-  domain: dzone.com
-  image: ""
 - curated_id: 84ocULlhQ116J6sBN1230OEyA37U123m14OjfC0A5Z4sRwbMosUqz123fBaRmNC116QQm2hpLD8EbvMGMUdheNz9Wh5Tcd6g117117
   item_date: "2016-03-29 23:49:24"
   title: A Tale of Two Chatbots  Internet Ethics Views From Silicon Valley
   url: https://www.scu.edu/ethics/internet-ethics-blog/a-tale-of-two-chatbots/
   domain: www.scu.edu
-  image: ""
-- curated_id: 103b2cf4df3f1d54c3da8ee246ef2486
-  item_date: "2016-03-30 00:00:00"
-  title: Memcached - A Distributed Memory Object Caching System
-  url: https://dzone.com/articles/memcached-a-distributed-memory-object-caching-syst
-  domain: dzone.com
   image: ""
 - curated_id: R9ksv6ma0iT4aXK1233TsO0p7EAN6YR116bOyMCrhlDdf20mQiV123tYN24yRk6UyTYGZZwJTDHTXznpYMExPjvQaNYw117117
   item_date: "2016-03-30 00:00:00"
@@ -1817,12 +1781,6 @@
   url: https://www.fullcontact.com/blog/never-put-secrets-urls-query-parameters/
   domain: www.fullcontact.com
   image: ""
-- curated_id: caea808064c81818d0432a28d7b570be
-  item_date: "2016-05-02 00:00:00"
-  title: Ehcache 3.0 Released with Revamped API and Off-Heap Storage
-  url: http://www.infoq.com/news/2016/05/ehcache-3.0
-  domain: www.infoq.com
-  image: ""
 - curated_id: MXdwQKnCy89eom8UQS2AfqVJrobTVllI75nAQgDhQNGcvLq5qZCxBKz7fgN1164Edos123C5AH9gQz116rbXFpI76tMQ117117
   item_date: "2016-05-02 12:10:55"
   title: HTTP Header Awareness Using The Link Header For Pagination
@@ -1853,12 +1811,6 @@
     Not an Implementation
   url: https://dzone.com/articles/a-consumer-of-a-properly-designed-restful-api-is-w
   domain: dzone.com
-  image: ""
-- curated_id: 7e6293804fb28633536f4db029a68218
-  item_date: "2016-05-26 00:00:00"
-  title: Amazon ElastiCache Update ? Export Redis Snapshots to Amazon S3
-  url: https://aws.amazon.com/blogs/aws/amazon-elasticache-update-export-redis-snapshots-to-amazon-s3/
-  domain: aws.amazon.com
   image: ""
 - curated_id: nE9BFDozn116lvCSqX6AAj9pJbKXSeYdYijpEH123XejamfZCwjYBFiGMYsIiRmfGRZMA3M3HDupSZuFXgIOXhc7kw117117
   item_date: "2016-06-05 00:00:00"
@@ -1950,17 +1902,17 @@
   url: http://www.programmableweb.com/news/microsoft-publishes-rest-api-guidelines-2.3/brief/2016/07/21
   domain: www.programmableweb.com
   image: ""
-- curated_id: kZx123I9JcW5EFeckjo8v3rPxf123O3epDRsTJ123AE1MQjJY109116ro1UxHrtxIn2sG0P116xUgTyfRgHQdf6116le123yx0MQ117117
-  item_date: "2016-08-03 00:00:00"
-  title: Restlet Studio 13 is out
-  url: http://restlet.com/blog/2016/08/03/restlet-studio-1-3-is-out/
-  domain: restlet.com
-  image: ""
 - curated_id: h6loNrmahtGZvgL116Pr8gcsvvzgTqiWUvFoKxZmid4V3MUhCQbij5H5116nLYFyEOwa2IHgQI5V62Z70QMSmwrt116w117117
   item_date: "2016-08-03 00:00:00"
   title: Getting Your REST is Important
   url: http://www.tibco.com/blog/2016/08/03/getting-your-rest-is-important/
   domain: www.tibco.com
+  image: ""
+- curated_id: kZx123I9JcW5EFeckjo8v3rPxf123O3epDRsTJ123AE1MQjJY109116ro1UxHrtxIn2sG0P116xUgTyfRgHQdf6116le123yx0MQ117117
+  item_date: "2016-08-03 00:00:00"
+  title: Restlet Studio 13 is out
+  url: http://restlet.com/blog/2016/08/03/restlet-studio-1-3-is-out/
+  domain: restlet.com
   image: ""
 - curated_id: N4DsiNvaeA9XYbIShqFhKJN9u8qY5hrXFXCXrqt3RarEGDxboM7MJlKBdHfDyErGNmxEYQ888hcuZLr9R57NZg117117
   item_date: "2016-08-09 00:00:00"
@@ -2005,12 +1957,6 @@
   url: https://www.infoq.com/articles/T4-Rest-Code-Generation
   domain: www.infoq.com
   image: ""
-- curated_id: 4a7087dba7aa47e0f8eea4d47d445b1a
-  item_date: "2016-08-19 17:49:59"
-  title: HTTP caching | Web Fundamentals
-  url: https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching
-  domain: developers.google.com
-  image: ""
 - curated_id: 3i7ezGMutZGTetK1uo3HRfcjWRtuXPdHYTWUX87EiqhnqMOdEPcq5J7HAMDVQY9aM8lSM123Vy6jYkAg6XRCOofQ117117
   item_date: "2016-08-20 00:00:00"
   title: Be Explicit with Your APIs Data
@@ -2035,17 +1981,17 @@
   url: https://www.lullabot.com/articles/internal-api-design-for-distributed-teams
   domain: www.lullabot.com
   image: ""
-- curated_id: lJDc116koEBDYKzA9Gqj8Tgo0lWYERe1236K7O1161DL441B7icwAMmdV123trJFikQk1QWaMnO1aLXkE2HSRYCbUc1231Iw117117
-  item_date: "2016-08-30 00:00:00"
-  title: Better API Design With Java 8 Optional
-  url: https://dzone.com/articles/better-api-design-with-java-8-optional
-  domain: dzone.com
-  image: ""
 - curated_id: BmkZASH5lT8aIjPY68zoiSoAW123MOPpIPwfJ0I123v116VTfnz123Q3GrVUHxxQfi1UEc6wm2rwRJn8rJMwHP2PSWn9sQ117117
   item_date: "2016-08-30 00:00:00"
   title: Why Consistency Matters Across the Media Types Offered by an API
   url: http://www.programmableweb.com/news/why-consistency-matters-across-media-types-offered-api/analysis/2016/08/30
   domain: www.programmableweb.com
+  image: ""
+- curated_id: lJDc116koEBDYKzA9Gqj8Tgo0lWYERe1236K7O1161DL441B7icwAMmdV123trJFikQk1QWaMnO1aLXkE2HSRYCbUc1231Iw117117
+  item_date: "2016-08-30 00:00:00"
+  title: Better API Design With Java 8 Optional
+  url: https://dzone.com/articles/better-api-design-with-java-8-optional
+  domain: dzone.com
   image: ""
 - curated_id: 2Gty12IkCi3endqM1235hGrvf0jEMGYo81Hxj5oCk2Dxua8obrTmxweQM63lYd8IkcRsNqoJsfPopDkw8gCzcinw117117
   item_date: "2016-09-03 09:26:52"
@@ -2083,17 +2029,17 @@
   url: http://www.streamingmedia.com/Articles/Editorial/Featured-Articles/The-Secret-Sauce-Behind-Building-an-Elastic-API-113410.aspx
   domain: www.streamingmedia.com
   image: ""
-- curated_id: sjnAUAGv7o123BuTzkKPOTB123Hfq4HpzOE116JKaTvukk23Rys8jjr2OwvPpoLPN3BragPVRI1169t6HMfBxePb123G88MQ117117
-  item_date: "2016-09-08 00:00:00"
-  title: RESTful Web API Design with Nodejs
-  url: https://adobeland.wordpress.com/2016/09/08/restful-web-api-design-with-node-js/
-  domain: adobeland.wordpress.com
-  image: ""
 - curated_id: dGDk6eIYibFC8rIkNQEU07nkJhfM7yQlLv41oCq116WUZOnte431232KbzuK04T5JcrakDfXqKLY3DL6bUb116XI2cAA117117
   item_date: "2016-09-08 00:00:00"
   title: Restful API Design An Opinionated Guide
   url: https://dzone.com/articles/restful-api-design-an-opinionated-guide
   domain: dzone.com
+  image: ""
+- curated_id: sjnAUAGv7o123BuTzkKPOTB123Hfq4HpzOE116JKaTvukk23Rys8jjr2OwvPpoLPN3BragPVRI1169t6HMfBxePb123G88MQ117117
+  item_date: "2016-09-08 00:00:00"
+  title: RESTful Web API Design with Nodejs
+  url: https://adobeland.wordpress.com/2016/09/08/restful-web-api-design-with-node-js/
+  domain: adobeland.wordpress.com
   image: ""
 - curated_id: aXZiXF123qk31BV80o6QHscLNx5IkM2prEHAIThFwl5L116PUhda6IujxuRLscWFJvcGWlM1167YNMWzmqKwEb1166OODg117117
   item_date: "2016-09-09 00:00:00"
@@ -2125,12 +2071,6 @@
   url: http://restlet.com/blog/2016/09/15/sept-api-meetup/
   domain: restlet.com
   image: ""
-- curated_id: d83212495008403d24463cabfb7f8d66
-  item_date: "2016-09-16 00:00:00"
-  title: 'Now Available: Varnish Cache 5.0, Now With HTTP/2 Support'
-  url: https://dzone.com/articles/now-available-varnish-cache-50-now-with-http2-supp
-  domain: dzone.com
-  image: ""
 - curated_id: DG1Hi4mdkwHH92Vuqlwl9zI3mhKI4ScbSqBXbJpClAd4tAGCHg0DZcXce4V4116MpKNNpnsR99Nlkz116XnUt0w8jQ117117
   item_date: "2016-09-16 00:00:00"
   title: Here comes GraphQL  The Real Adam
@@ -2143,17 +2083,17 @@
   url: https://dzone.com/articles/restful-web-service-1
   domain: dzone.com
   image: ""
-- curated_id: m73FE7d4lJQt3fa6LnbXYkEi4kf54W0XAok8PVABQ8qKR8mRVUcS8kiU0EPf0qCwRRS7SdMQMUl0PQmuUObqEg117117
-  item_date: "2016-09-20 00:00:00"
-  title: RPC vs REST is not in the URL
-  url: http://www.bizcoder.com:80/rpc-vs-rest-is-not-in-the-url
-  domain: www.bizcoder.com
-  image: ""
 - curated_id: 6jZVGTsC9S2HDZRPs123n3dFDGcJl0WyLG7aSbcQVxD0aG1w83cYwmDyuKnXUBao116mud84YVMSHgAi4kZ2uOZcIA117117
   item_date: "2016-09-20 00:00:00"
   title: Understanding REST And RPC For HTTP APIs
   url: https://www.smashingmagazine.com/2016/09/understanding-rest-and-rpc-for-http-apis/
   domain: www.smashingmagazine.com
+  image: ""
+- curated_id: m73FE7d4lJQt3fa6LnbXYkEi4kf54W0XAok8PVABQ8qKR8mRVUcS8kiU0EPf0qCwRRS7SdMQMUl0PQmuUObqEg117117
+  item_date: "2016-09-20 00:00:00"
+  title: RPC vs REST is not in the URL
+  url: http://www.bizcoder.com:80/rpc-vs-rest-is-not-in-the-url
+  domain: www.bizcoder.com
   image: ""
 - curated_id: yKafGukRwI0iX7J9sRjmJ7Zpp9bcVrEi33Vb116SCMy123zMkqdeWma34XEJW8gIT3EGI3DbdbYwqs503rtmFeYYMQ117117
   item_date: "2016-09-20 06:32:01"
@@ -2279,12 +2219,6 @@
   url: https://community.havenondemand.com/t5/Blog/Getting-started-with-HPE-Haven-OnDemand-Combinations/ba-p/3270
   domain: community.havenondemand.com
   image: ""
-- curated_id: 974ad04654871a558dbd05e75c1d2baa
-  item_date: "2016-10-14 00:00:00"
-  title: Caching for Faster APIs
-  url: https://dzone.com/articles/caching-for-faster-apis
-  domain: dzone.com
-  image: ""
 - curated_id: FK1its0YZegwnAQZjs4stwccrIREwW1116IJrTyIBrRKEjtsk116ipqK7sKiaxnB123YSFH84TZ116JHY6fVM7FAyxWkBw117117
   item_date: "2016-10-14 10:44:21"
   title: API Best Practices API Design
@@ -2315,17 +2249,17 @@
   url: http://api-university.com/blog/from-good-to-great-api/
   domain: api-university.com
   image: ""
-- curated_id: sn116dMhVpC1vv6rctwmQj8Rjhik7123ib2DW116xrzMKfQ0stJc4y0U2wPZsmmBgTv0123YF9QrFE4DXPoLxqa5GE86Dg117117
-  item_date: "2016-10-31 00:00:00"
-  title: Introduction to APIFirst Design
-  url: http://www.programmableweb.com/news/introduction-to-api-first-design/analysis/2016/10/31
-  domain: www.programmableweb.com
-  image: ""
 - curated_id: dMcIt35Bmig123EVRJYyAv7nIFLwniY7MfwR0FPxUYNsEjkI6PQ4VXWMKdsRbYRAzfuDr116QLx54yDd3mhKx123byqw117117
   item_date: "2016-10-31 00:00:00"
   title: Introducing Seamless Source Control Integration With Bitbucket and SwaggerHub
   url: https://dzone.com/articles/introducing-seamless-source-control-integration-wi
   domain: dzone.com
+  image: ""
+- curated_id: sn116dMhVpC1vv6rctwmQj8Rjhik7123ib2DW116xrzMKfQ0stJc4y0U2wPZsmmBgTv0123YF9QrFE4DXPoLxqa5GE86Dg117117
+  item_date: "2016-10-31 00:00:00"
+  title: Introduction to APIFirst Design
+  url: http://www.programmableweb.com/news/introduction-to-api-first-design/analysis/2016/10/31
+  domain: www.programmableweb.com
   image: ""
 - curated_id: EtzfvKVCCoFG9ji123qKPecXVre3gQKXGLIbbSU1j1RHUtTDh3SgdpKCa0r5116RDImAf40116T1zp0QlR4W8CfJm5tg117117
   item_date: "2016-11-02 00:00:00"
@@ -2357,6 +2291,12 @@
   url: https://swagger-toolbox.firebaseapp.com/
   domain: swagger-toolbox.firebaseapp.com
   image: ""
+- curated_id: R6JBesMvzzhL1FpnPgbc116SiTJ1b116Yi2QTA9alNEZ1dKpV9HhpM2tHekG1bVVuklTUaQnyH1GruehxyWZH8mWdw117117
+  item_date: "2016-12-14 00:00:00"
+  title: API Modeling A ZeroCode Way To a Designer API
+  url: http://www.tibco.com/blog/2016/12/14/api-modeling-a-zero-code-way-to-a-designer-api/
+  domain: www.tibco.com
+  image: ""
 - curated_id: Jg5bAi9PLGNP9IJKUxF4iXAx0aW123q1tK66AiMWRkAWZ2F5GUqAB123zPjPMsyRNSUdEIz85OoVV1iUXfYO6xnMeQ117117
   item_date: "2016-12-14 00:00:00"
   title: Foundations of RESTful Architecture
@@ -2368,12 +2308,6 @@
   title: 7 Secrets to Designing Alexa Skills
   url: https://dzone.com/articles/7-secrets-to-designing-alexa-skills
   domain: dzone.com
-  image: ""
-- curated_id: R6JBesMvzzhL1FpnPgbc116SiTJ1b116Yi2QTA9alNEZ1dKpV9HhpM2tHekG1bVVuklTUaQnyH1GruehxyWZH8mWdw117117
-  item_date: "2016-12-14 00:00:00"
-  title: API Modeling A ZeroCode Way To a Designer API
-  url: http://www.tibco.com/blog/2016/12/14/api-modeling-a-zero-code-way-to-a-designer-api/
-  domain: www.tibco.com
   image: ""
 - curated_id: hCTkehE2fpb12356q116riWdoE9npZ8nzB0XHa3AAS2yKJU123RMX123tFyGtE7HBPP3OCF9VxQpS2cd9dghkJWD1234cK116w117117
   item_date: "2016-12-18 00:00:00"
@@ -2447,25 +2381,6 @@
   url: https://www.nginx.com/blog/building-api-for-longevity-spec-driven-development/
   domain: www.nginx.com
   image: ""
-- curated_id: ae9b8b32ad1bed08ebb4f7c4ec0a6c2c
-  item_date: "2017-01-10 00:00:00"
-  title: Token Authentication for Cached Private Content and APIs
-  url: https://blog.cloudflare.com/token-authentication-for-cached-private-content-and-apis/
-  domain: blog.cloudflare.com
-  image: ""
-- curated_id: 7d86ae8e269dd007da23cce1a560b0ff
-  item_date: "2017-01-10 05:52:58"
-  title: 'Tweet: Token Authentication for Cached Private Content and APIs: https://t.co/iKVvFdA3Gx
-    https://t.co/Ku3B7FSzsL'
-  url: https://twitter.com/Cloudflare/statuses/818817913067106304
-  domain: twitter.com
-  image: ""
-- curated_id: d73fb681b9c60da6fc9dd68409cfc549
-  item_date: "2017-01-12 00:00:00"
-  title: Compute Performance Improvements  Magic of Caching
-  url: http://keenio.tumblr.com/post/155772589226/compute-performance-improvements-magic-of#_=_
-  domain: keenio.tumblr.com
-  image: ""
 - curated_id: bmJXvSElCbS123A123zpeHc123U8C75CdU123KYRhZQF6E885eNFCG9Nluyi116bg1YYbNljVfgLjGQUIgbZd4V123NwlQLDNg117117
   item_date: "2017-01-14 00:00:00"
   title: Signatures with PUT vs POST
@@ -2477,12 +2392,6 @@
   title: Looking for commonality among HTTP request APIs
   url: https://snarky.ca/looking-for-commonality-among-http-request-apis/
   domain: snarky.ca
-  image: ""
-- curated_id: 100f862612a043051a3a726a3661e3f3
-  item_date: "2017-01-31 00:00:00"
-  title: IPv6 Neighbor Discovery Cache - Part 1 (of 2)
-  url: https://community.infoblox.com/t5/IPv6-Center-of-Excellence/IPv6-Neighbor-Discovery-Cache-Part-1-of-2/ba-p/8892
-  domain: community.infoblox.com
   image: ""
 - curated_id: Iuu2grPtfFXlvCzkPjvGipaShv5QWN116oKM9kudyw18miCrbivkCYhZV9sCz5DAESOtKUf35qD8y0sKeuVfNhzw117117
   item_date: "2017-01-31 00:00:00"
@@ -2502,16 +2411,10 @@
   url: https://hackernoon.com/visualising-complex-apis-using-api-map-f09f617acb32#.8y525mrpn
   domain: hackernoon.com
   image: ""
-- curated_id: 9dafbf00ee990c5ae55a6c5abfebda5e
-  item_date: "2017-02-06 00:00:00"
-  title: "What\u2019s in an AMP URL?"
-  url: https://developers.googleblog.com/2017/02/whats-in-amp-url.html
-  domain: developers.googleblog.com
-  image: ""
-- curated_id: 570f440e30e98beb72134f08d6573e35
-  item_date: "2017-02-06 00:00:00"
-  title: "Caching for Non-Web Applications \u2013 Part 1"
-  url: https://www.codeproject.com/Articles/1169312/Caching-for-Non-Web-Applications-Part
+- curated_id: gEkQR813o116HF8yldGiKvDtog1zeI9n4116fIHr5E7njDlzfcFoMh1HenoG9xDFFq123IM4116uY6GFuQjfDNUFkcXSDg117117
+  item_date: "2017-02-07 00:00:00"
+  title: Use a Local API to Protect Global Methods in a Distributed Environment
+  url: https://www.codeproject.com/Tips/1169500/Use-a-Local-API-to-Protect-Global-Methods-in-a-Dis
   domain: www.codeproject.com
   image: ""
 - curated_id: 2tAS4n97EhMF8Pq99onfpXmy326QRc6oCZ7UxKEAttwyfZrjp123Wrv123tSNWEJT9krMPj91rwCIr6fPNsxUJZREQ117117
@@ -2519,12 +2422,6 @@
   title: HTML APIs What They Are And How To Design A Good One
   url: https://newze.net/404-error-page/
   domain: newze.net
-  image: ""
-- curated_id: gEkQR813o116HF8yldGiKvDtog1zeI9n4116fIHr5E7njDlzfcFoMh1HenoG9xDFFq123IM4116uY6GFuQjfDNUFkcXSDg117117
-  item_date: "2017-02-07 00:00:00"
-  title: Use a Local API to Protect Global Methods in a Distributed Environment
-  url: https://www.codeproject.com/Tips/1169500/Use-a-Local-API-to-Protect-Global-Methods-in-a-Dis
-  domain: www.codeproject.com
   image: ""
 - curated_id: gCK4O9BWxWcBb9dnQDKBWP09J34pOlV2mK123dJUI116rgJm4cmHXnYEBgiGf886QlDbh1w621Lm9QIO2ap6VnxjLA117117
   item_date: "2017-02-08 00:00:00"
@@ -2544,17 +2441,17 @@
   url: https://www.codeproject.com/Articles/1169060/Model-driven-RESTful-API-for-CRUD-and-more
   domain: www.codeproject.com
   image: ""
-- curated_id: cTdCVjsVWLDDPUFgpBCSdKj8TChU28RdRsjgqC3TLplkrOKZ6m5AkEDYmWJ1235yNjKX45K00pXsww5QUOQKqotg117117
-  item_date: "2017-02-15 00:00:00"
-  title: Implementing DomainDriven Design in PHP
-  url: https://dzone.com/articles/implementing-domain-driven-design-in-php
-  domain: dzone.com
-  image: ""
 - curated_id: 0IAQwlK116LpSD8H3HOaq1165GR2123Hn5UeZEcV7TDUbBwjAvhrZ6RyliHimG12309LLQ2STYPTcMVOokrWtmFcP41123wg117117
   item_date: "2017-02-15 00:00:00"
   title: ConsumerOriented API Design
   url: http://api-university.com/blog/consumer-oriented-api-design-2/
   domain: api-university.com
+  image: ""
+- curated_id: cTdCVjsVWLDDPUFgpBCSdKj8TChU28RdRsjgqC3TLplkrOKZ6m5AkEDYmWJ1235yNjKX45K00pXsww5QUOQKqotg117117
+  item_date: "2017-02-15 00:00:00"
+  title: Implementing DomainDriven Design in PHP
+  url: https://dzone.com/articles/implementing-domain-driven-design-in-php
+  domain: dzone.com
   image: ""
 - curated_id: obUXVkeXzx3i9MkgDvWk116XP2qZzRTC1PJ123DsMov1crv7f116q6bt2LkyU6wtFki123DLe6XsfuBujSEc3DwARnnwfA117117
   item_date: "2017-02-17 00:00:00"
@@ -2673,16 +2570,16 @@
   url: http://daviddawson.me/blog/2017/02/21/muon-intro.html
   domain: daviddawson.me
   image: ""
-- curated_id: P123GLG50vbUOfZlqHnZhWCfm2RGV4e3AzqFY6uQynI3QzNu4a7io55iiXDE1XZ0VpqqgfA97EnxuJ6Hngi116NJ9w117117
-  item_date: "2017-03-20 00:00:00"
-  title: RESTful SNMP Over HTTP Part II
-  url: https://dzone.com/articles/restful-snmp-over-http-ii
-  domain: dzone.com
-  image: ""
 - curated_id: YH353116wouFo123ya123WX70zkC4BmBhE2EmIf8qOTj25Eix3wrtzjA5X3eHniA116DmL2sxCnGH9GH54GwRn93bEqmEQ117117
   item_date: "2017-03-20 00:00:00"
   title: RESTful SNMP Over HTTP Part III
   url: https://dzone.com/articles/restful-snmp-over-http-3
+  domain: dzone.com
+  image: ""
+- curated_id: P123GLG50vbUOfZlqHnZhWCfm2RGV4e3AzqFY6uQynI3QzNu4a7io55iiXDE1XZ0VpqqgfA97EnxuJ6Hngi116NJ9w117117
+  item_date: "2017-03-20 00:00:00"
+  title: RESTful SNMP Over HTTP Part II
+  url: https://dzone.com/articles/restful-snmp-over-http-ii
   domain: dzone.com
   image: ""
 - curated_id: 5aZEQTZcJk1235sBBL4wRS8GfQpKd123AbMDY5ch8123WGGMw7oP5ITbeSsOGyDIYmITSok92iw4va6I4ddS0BywxoCQ117117
@@ -2690,13 +2587,6 @@
   title: BigCommerce uses Postman before a single line of code is written
   url: http://blog.getpostman.com/2017/03/21/bigcommerce-uses-postman-before-a-single-line-of-code-is-written/
   domain: blog.getpostman.com
-  image: ""
-- curated_id: 9bba118555e98817d81e087d5f7b4f62
-  item_date: "2017-03-21 00:00:00"
-  title: Amazon ElastiCache Launches Enhanced Redis Backup and Restore with Cluster
-    Resizing
-  url: https://aws.amazon.com/blogs/aws/launch-amazon-elasticache-launches-enhanced-redis-backup-and-restore-with-cluster-resizing/
-  domain: aws.amazon.com
   image: ""
 - curated_id: 2pEG9np2mQLA3dmV0VeG123NA3dIAZXZJQ7CWMr6BUnJ8ZmDrKXrQldNjmTQXGSiMVJ7T116vvjt9avZAAAqJXprQA117117
   item_date: "2017-03-22 18:56:59"
@@ -2766,16 +2656,10 @@
   url: http://blog.mparticle.com/simplicity-utility-x-data-success/
   domain: blog.mparticle.com
   image: ""
-- curated_id: 557af12507b69792846226ace2a92511
-  item_date: "2017-04-14 00:00:00"
-  title: Understanding Our Cache and the Web Cache Deception Attack
-  url: https://blog.cloudflare.com/understanding-our-cache-and-the-web-cache-deception-attack/
-  domain: blog.cloudflare.com
-  image: ""
-- curated_id: 9bf28b87dbc787c88ce56c571086cc4f
-  item_date: "2017-04-17 00:00:00"
-  title: Heres Why You Should Never Implement Your Own Caching
-  url: https://dzone.com/articles/heres-why-you-should-never-implement-your-own-cach
+- curated_id: mJ0CPNAifOOEAU1cqfL2rphranV116iVSuNYLHwswTTPE123N0wAqJJLduNcHS2UhpXSr21GKERyXRKwyBfswqRT9Q117117
+  item_date: "2017-04-19 00:00:00"
+  title: Microservices APIs and Swagger How They Fit Together
+  url: https://dzone.com/articles/microservices-apis-and-swagger-how-they-fit-togeth
   domain: dzone.com
   image: ""
 - curated_id: rLk1167zKcM5ZqN0JvIulYhpCouEXRLnhFGpOhDP116Z4Ly7123YKtyUEyFCBwt5hK3lHLP116pqBmZFULBoMSPYnykb116w117117
@@ -2783,12 +2667,6 @@
   title: Building an API  lessons learned the hard way part 2
   url: https://medium.com/m/global-identity
   domain: medium.com
-  image: ""
-- curated_id: mJ0CPNAifOOEAU1cqfL2rphranV116iVSuNYLHwswTTPE123N0wAqJJLduNcHS2UhpXSr21GKERyXRKwyBfswqRT9Q117117
-  item_date: "2017-04-19 00:00:00"
-  title: Microservices APIs and Swagger How They Fit Together
-  url: https://dzone.com/articles/microservices-apis-and-swagger-how-they-fit-togeth
-  domain: dzone.com
   image: ""
 - curated_id: 21DFk7fxErnKg2QXLJL9U5gBMqhi7JGlBaiVt2IROkM0bUfdSmCKWZ14TBzmBrwqreUi9NKBqDjbzBss8NuMLA117117
   item_date: "2017-04-20 00:00:00"
@@ -2838,17 +2716,17 @@
   url: https://twitter.com/Runscope/statuses/856992717330673664
   domain: twitter.com
   image: ""
-- curated_id: B4JNeA123K4BBbXcxPThwBmHsG99LdR2G1pDAA49RiLeWB4FCBEIIcLb4116fJ7ncC10eWULPKlyajAsrsjNNSOtOA117117
-  item_date: "2017-04-26 00:00:00"
-  title: Summarizing requests
-  url: http://www.apiful.io/intro/2017/04/27/summarizing-requests.html
-  domain: www.apiful.io
-  image: ""
 - curated_id: Wl8yWdJEUUBQXYXWW7dG1235SuuE3NFvjgW4lBDcuw16G116oCKuPhIuoHNwW7yLO5I9CaGdv4ddGh4iw8TDi2iJNg117117
   item_date: "2017-04-26 00:00:00"
   title: Manage your gRPC APIs with Google Cloud Endpoints
   url: http://cloudplatform.googleblog.com/2017/04/manage-your-gRPC-APIs-with-Google-Cloud-Endpoints.html
   domain: cloudplatform.googleblog.com
+  image: ""
+- curated_id: B4JNeA123K4BBbXcxPThwBmHsG99LdR2G1pDAA49RiLeWB4FCBEIIcLb4116fJ7ncC10eWULPKlyajAsrsjNNSOtOA117117
+  item_date: "2017-04-26 00:00:00"
+  title: Summarizing requests
+  url: http://www.apiful.io/intro/2017/04/27/summarizing-requests.html
+  domain: www.apiful.io
   image: ""
 - curated_id: drWoJN0PKccMe2Yhq50tDcqwTvmHEhqgIb38jaA5rlwINKXrYHViri0KnN8XZSzzwo9123fE8XNaPfjIVwM1NRbw117117
   item_date: "2017-04-27 12:47:45"
@@ -2873,12 +2751,6 @@
   title: Little rules for designing with data
   url: https://github.com/18F/doi-extractives-data/wiki/Little-rules-for-designing-with-data
   domain: github.com
-  image: ""
-- curated_id: 93cd15dd0b3f957fcecc337d72c11c3f
-  item_date: "2017-05-03 00:00:00"
-  title: The Impact of Web Caching
-  url: https://dzone.com/articles/the-impact-of-web-caching
-  domain: dzone.com
   image: ""
 - curated_id: YESer1QlB0ywuCcgSxl116JAWB6UjFCPUQNBgRPzGPcD123URPs9tetLeSHqUQbJ886osMMKr1167ctZXYx5h8VafAnA117117
   item_date: "2017-05-03 00:00:00"
@@ -2959,7 +2831,7 @@
   item_date: "2017-05-22 15:43:58"
   title: The Resource Groups Tagging API Makes It Easier to List Your Resources by
     Using a New Pagination Parameter
-  url: https://aws.amazon.com/blogs/security/the-resource-groups-tagging-api-now-supports-pagination-by-the-number-of-resources-and-automated-pagination-in-the-aws-cli/?sc_channel=sm&amp;sc_campaign=rgtaggingapipagination&amp;sc_publisher=tw&amp;sc_medium=tw&amp;sc_content=readpost&amp;sc_country=global&amp;sc_geo=global&amp;sc_category=cloudformation&amp;sc_outcome=other
+  url: https://aws.amazon.com/blogs/security/the-resource-groups-tagging-api-now-supports-pagination-by-the-number-of-resources-and-automated-pagination-in-the-aws-cli/?sc_channel=sm&sc_campaign=rgtaggingapipagination&sc_publisher=tw&sc_medium=tw&sc_content=readpost&sc_country=global&sc_geo=global&sc_category=cloudformation&sc_outcome=other
   domain: aws.amazon.com
   image: ""
 - curated_id: aTKLPW9AeQAh09DpOW/0/mK2tQUNNgIyAi3xy7MVsb4=_15c3256c00f:1b0be31:1980c846
