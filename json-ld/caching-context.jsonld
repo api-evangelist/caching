@@ -1,0 +1,102 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "cache": "https://api-evangelist.github.io/caching/schema/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcat": "https://www.w3.org/ns/dcat#",
+
+    "CacheEntry": "cache:CacheEntry",
+    "PurgeRequest": "cache:PurgeRequest",
+
+    "key": {
+      "@id": "cache:key",
+      "@type": "xsd:string"
+    },
+    "value": "schema:value",
+    "namespace": {
+      "@id": "cache:namespace",
+      "@type": "xsd:string"
+    },
+    "ttl_seconds": {
+      "@id": "cache:ttlSeconds",
+      "@type": "xsd:integer"
+    },
+    "expires_at": {
+      "@id": "schema:expires",
+      "@type": "xsd:dateTime"
+    },
+    "created_at": {
+      "@id": "dcterms:created",
+      "@type": "xsd:dateTime"
+    },
+    "last_accessed_at": {
+      "@id": "cache:lastAccessedAt",
+      "@type": "xsd:dateTime"
+    },
+    "size_bytes": {
+      "@id": "cache:sizeBytes",
+      "@type": "xsd:integer"
+    },
+    "tags": {
+      "@id": "dcat:keyword",
+      "@container": "@set",
+      "@type": "xsd:string"
+    },
+    "eviction_policy": {
+      "@id": "cache:evictionPolicy",
+      "@type": "xsd:string"
+    },
+    "data_type": {
+      "@id": "cache:dataType",
+      "@type": "xsd:string"
+    },
+    "hit_count": {
+      "@id": "cache:hitCount",
+      "@type": "xsd:integer"
+    },
+
+    "purge_id": {
+      "@id": "cache:purgeId",
+      "@type": "xsd:string"
+    },
+    "scope": {
+      "@id": "cache:scope",
+      "@type": "xsd:string"
+    },
+    "targets": {
+      "@id": "cache:targets",
+      "@container": "@set",
+      "@type": "xsd:string"
+    },
+    "mode": {
+      "@id": "cache:mode",
+      "@type": "xsd:string"
+    },
+    "cache_id": {
+      "@id": "cache:cacheId",
+      "@type": "xsd:string"
+    },
+    "requested_at": {
+      "@id": "cache:requestedAt",
+      "@type": "xsd:dateTime"
+    },
+    "completed_at": {
+      "@id": "cache:completedAt",
+      "@type": "xsd:dateTime"
+    },
+    "status": {
+      "@id": "cache:status",
+      "@type": "xsd:string"
+    },
+    "submitted_by": {
+      "@id": "cache:submittedBy",
+      "@type": "xsd:string"
+    },
+    "reason": {
+      "@id": "dcterms:description",
+      "@type": "xsd:string"
+    }
+  }
+}

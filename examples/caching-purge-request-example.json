@@ -1,0 +1,13 @@
+{
+  "purge_id": "purge_8f4c2d6a1e",
+  "scope": "tag",
+  "targets": ["user:42", "profile"],
+  "mode": "instant",
+  "cache_id": "fastly-service-7q3w",
+  "namespace": "sessions",
+  "requested_at": "2026-05-19T17:30:00Z",
+  "completed_at": "2026-05-19T17:30:02Z",
+  "status": "completed",
+  "submitted_by": "ci-bot@example.com",
+  "reason": "User updated profile photo"
+}

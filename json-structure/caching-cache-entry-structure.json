@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/caching/refs/heads/main/json-structure/caching-cache-entry-structure.json",
+  "name": "CacheEntry",
+  "description": "Represents a single value stored in an in-memory or edge cache, identified by a key and governed by a TTL and eviction policy.",
+  "type": "object",
+  "properties": {
+    "key": {
+      "type": "string",
+      "description": "Unique identifier for the cache entry within its namespace or cache instance.",
+      "example": "session:user:42:profile"
+    },
+    "value": {
+      "type": "string",
+      "description": "The cached value, serialized as a string for transport. May represent JSON, binary base64, or a raw scalar.",
+      "example": "{\"name\":\"Kin Lane\",\"plan\":\"pro\"}"
+    },
+    "namespace": {
+      "type": "string",
+      "description": "Logical namespace, database number, or cache instance the entry belongs to.",
+      "example": "sessions"
+    },
+    "ttl_seconds": {
+      "type": "int32",
+      "description": "Remaining time-to-live in seconds. Zero or omitted indicates the entry does not expire.",
+      "example": 3600
+    },
+    "expires_at": {
+      "type": "datetime",
+      "description": "Absolute timestamp at which the entry will expire and become eligible for eviction.",
+      "example": "2026-05-19T18:00:00Z"
+    },
+    "created_at": {
+      "type": "datetime",
+      "description": "Timestamp the entry was written to the cache.",
+      "example": "2026-05-19T17:00:00Z"
+    },
+    "last_accessed_at": {
+      "type": "datetime",
+      "description": "Timestamp the entry was most recently read or refreshed, used by LRU/LFU eviction policies.",
+      "example": "2026-05-19T17:45:11Z"
+    },
+    "size_bytes": {
+      "type": "int32",
+      "description": "Size of the serialized value in bytes.",
+      "example": 218
+    },
+    "tags": {
+      "type": "array",
+      "description": "Surrogate keys or cache tags used for grouped purge and invalidation.",
+      "items": { "type": "string" },
+      "example": [
+        "user:42",
+        "profile"
+      ]
+    },
+    "eviction_policy": {
+      "type": "string",
+      "enum": [
+        "noeviction",
+        "allkeys-lru",
+        "allkeys-lfu",
+        "allkeys-random",
+        "volatile-lru",
+        "volatile-lfu",
+        "volatile-random",
+        "volatile-ttl"
+      ],
+      "description": "Eviction policy in effect for this entry or its parent cache instance.",
+      "example": "allkeys-lru"
+    },
+    "data_type": {
+      "type": "string",
+      "enum": [
+        "string",
+        "hash",
+        "list",
+        "set",
+        "sorted-set",
+        "stream",
+        "json",
+        "bitmap",
+        "hyperloglog",
+        "binary"
+      ],
+      "description": "Cache data structure or serialization format for the value.",
+      "example": "json"
+    },
+    "hit_count": {
+      "type": "int32",
+      "description": "Number of cache hits recorded against this entry since creation.",
+      "example": 17
+    }
+  },
+  "required": [
+    "key",
+    "value"
+  ]
+}

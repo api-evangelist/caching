@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/caching/refs/heads/main/json-schema/caching-purge-request-schema.json",
+  "title": "PurgeRequest",
+  "description": "A request to invalidate or evict one or more entries from a cache or CDN edge, identified by exact keys, URL patterns, or surrogate tags.",
+  "type": "object",
+  "properties": {
+    "purge_id": {
+      "type": "string",
+      "description": "Identifier assigned by the cache provider to track the purge request and its propagation status.",
+      "example": "purge_8f4c2d6a1e"
+    },
+    "scope": {
+      "type": "string",
+      "enum": ["key", "tag", "url", "prefix", "pattern", "everything"],
+      "description": "How the purge targets are interpreted by the cache.",
+      "example": "tag"
+    },
+    "targets": {
+      "type": "array",
+      "description": "List of keys, URLs, surrogate keys, or patterns to purge.",
+      "items": { "type": "string" },
+      "minItems": 1,
+      "example": ["user:42", "profile"]
+    },
+    "mode": {
+      "type": "string",
+      "enum": ["soft", "hard", "instant", "revalidate"],
+      "description": "Purge mode. Soft marks entries stale-while-revalidate; hard evicts immediately; instant requests global propagation; revalidate triggers a background fetch.",
+      "example": "instant"
+    },
+    "cache_id": {
+      "type": "string",
+      "description": "Identifier of the cache instance, zone, service, or distribution the purge applies to.",
+      "example": "fastly-service-7q3w"
+    },
+    "namespace": {
+      "type": "string",
+      "description": "Optional logical namespace, database number, or KV bucket scoping the purge.",
+      "example": "sessions"
+    },
+    "requested_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp the purge was submitted.",
+      "example": "2026-05-19T17:30:00Z"
+    },
+    "completed_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp the purge completed globally across all cache nodes or edge POPs.",
+      "example": "2026-05-19T17:30:02Z"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["pending", "in-progress", "completed", "partial", "failed"],
+      "description": "Current state of the purge request.",
+      "example": "completed"
+    },
+    "submitted_by": {
+      "type": "string",
+      "description": "Identity, API key label, or principal that submitted the purge.",
+      "example": "ci-bot@example.com"
+    },
+    "reason": {
+      "type": "string",
+      "description": "Human-readable reason for the purge, often recorded for audit.",
+      "example": "User updated profile photo"
+    }
+  },
+  "required": ["scope", "targets"]
+}

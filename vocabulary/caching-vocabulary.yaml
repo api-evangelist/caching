@@ -1,0 +1,290 @@
+vocabulary: "1.0.0"
+
+info:
+  provider: Caching
+  description: Vocabulary for the caching topic, covering in-memory key-value stores, distributed caches, edge KV stores, and CDN edge caching services.
+  created: '2026-05-19'
+  modified: '2026-05-19'
+
+operational:
+  apis:
+    - name: Redis
+      namespace: redis
+      status: active
+    - name: Amazon ElastiCache
+      namespace: amazon-elasticache
+      status: active
+    - name: Google Cloud Memorystore
+      namespace: google-cloud-memorystore
+      status: active
+    - name: Azure Cache for Redis
+      namespace: microsoft-azure-cache-for-redis
+      status: active
+    - name: Upstash
+      namespace: upstash
+      status: active
+    - name: Cloudflare
+      namespace: cloudflare
+      status: active
+    - name: Fastly
+      namespace: fastly
+      status: active
+    - name: Akamai Technologies
+      namespace: akamai-technologies
+      status: active
+    - name: Amazon CloudFront
+      namespace: amazon-cloudfront
+      status: active
+    - name: Vercel
+      namespace: vercel
+      status: active
+
+  resources:
+    - name: cache-instances
+      description: Logical cache deployments, clusters, zones, or distributions managed by a provider
+      actions:
+        - list
+        - get
+        - create
+        - update
+        - delete
+    - name: cache-entries
+      description: Individual key-value pairs stored in a cache instance
+      actions:
+        - get
+        - set
+        - delete
+        - list
+        - expire
+    - name: purge-requests
+      description: Invalidation requests targeting keys, URLs, tags, or patterns across cache nodes or edge POPs
+      actions:
+        - create
+        - get
+        - list
+    - name: cache-policies
+      description: Rules governing TTLs, eviction strategy, cache key composition, and stale handling
+      actions:
+        - list
+        - get
+        - create
+        - update
+        - delete
+    - name: cache-tags
+      description: Surrogate keys grouping related cache entries for atomic purge
+      actions:
+        - list
+        - get
+        - purge
+    - name: cache-stats
+      description: Hit ratio, eviction count, memory usage, and other operational metrics for a cache
+      actions:
+        - get
+        - list
+
+  actions:
+    - name: list
+      description: Enumerate resources
+      httpMethod: GET
+      pattern: read
+    - name: get
+      description: Retrieve a single resource
+      httpMethod: GET
+      pattern: read
+    - name: set
+      description: Write or overwrite a cache entry
+      httpMethod: PUT
+      pattern: write
+    - name: create
+      description: Create a cache instance, policy, or purge request
+      httpMethod: POST
+      pattern: write
+    - name: update
+      description: Modify an existing cache instance or policy
+      httpMethod: PUT
+      pattern: write
+    - name: delete
+      description: Remove a cache entry, policy, or instance
+      httpMethod: DELETE
+      pattern: destructive
+    - name: expire
+      description: Apply or update a TTL on a cache entry
+      httpMethod: POST
+      pattern: write
+    - name: purge
+      description: Invalidate cache entries by key, tag, URL pattern, or globally
+      httpMethod: POST
+      pattern: destructive
+
+  schemas:
+    core:
+      - name: CacheEntry
+        description: A single value stored in an in-memory or edge cache
+        properties:
+          - key
+          - value
+          - namespace
+          - ttl_seconds
+          - expires_at
+          - tags
+          - eviction_policy
+          - data_type
+      - name: PurgeRequest
+        description: A request to invalidate one or more cache entries
+        properties:
+          - purge_id
+          - scope
+          - targets
+          - mode
+          - cache_id
+          - status
+
+  enums:
+    eviction_policies:
+      - noeviction
+      - allkeys-lru
+      - allkeys-lfu
+      - allkeys-random
+      - volatile-lru
+      - volatile-lfu
+      - volatile-random
+      - volatile-ttl
+    data_types:
+      - string
+      - hash
+      - list
+      - set
+      - sorted-set
+      - stream
+      - json
+      - bitmap
+      - hyperloglog
+      - binary
+    purge_scopes:
+      - key
+      - tag
+      - url
+      - prefix
+      - pattern
+      - everything
+    purge_modes:
+      - soft
+      - hard
+      - instant
+      - revalidate
+    cache_tiers:
+      - in-memory
+      - distributed
+      - edge
+      - browser
+      - near-cache
+
+capability:
+  workflows:
+    - name: Session Cache Lookup
+      description: Read and refresh an authenticated session token from an in-memory cache during API request handling
+      apis:
+        - redis
+        - amazon-elasticache
+        - upstash
+      personas:
+        - Backend Engineer
+      domains:
+        - In-Memory Cache
+    - name: Edge Content Purge
+      description: Invalidate a set of CDN edge-cached objects across global POPs after an underlying content change
+      apis:
+        - cloudflare
+        - fastly
+        - akamai-technologies
+        - amazon-cloudfront
+      personas:
+        - Platform Engineer
+      domains:
+        - Edge Cache
+    - name: Cache Stampede Prevention
+      description: Coordinate cache repopulation using locking, singleflight, and probabilistic early expiration to protect origin systems during high-traffic events
+      apis:
+        - redis
+        - hazelcast
+      personas:
+        - Backend Engineer
+        - SRE
+      domains:
+        - In-Memory Cache
+    - name: Feature Flag Distribution at the Edge
+      description: Publish feature flag values to an edge KV store so edge functions can read them on every request without origin calls
+      apis:
+        - cloudflare
+        - vercel
+        - upstash
+      personas:
+        - Platform Engineer
+        - Frontend Engineer
+      domains:
+        - Edge KV
+
+  personas:
+    - id: backend-engineer
+      name: Backend Engineer
+      description: Engineers integrating in-memory caches into application code paths for sessions, rate limits, and query results
+      workflows:
+        - Session Cache Lookup
+        - Cache Stampede Prevention
+    - id: platform-engineer
+      name: Platform Engineer
+      description: Engineers operating shared cache and CDN infrastructure, configuring purge automation and capacity planning
+      workflows:
+        - Edge Content Purge
+        - Feature Flag Distribution at the Edge
+    - id: sre
+      name: SRE
+      description: Site reliability engineers monitoring hit ratios, evictions, and cache-related incidents
+      workflows:
+        - Cache Stampede Prevention
+    - id: frontend-engineer
+      name: Frontend Engineer
+      description: Engineers using edge KV and CDN cache features to personalize and accelerate user-facing surfaces
+      workflows:
+        - Feature Flag Distribution at the Edge
+
+  domains:
+    - name: In-Memory Cache
+      description: Single-node and clustered in-memory key-value caches such as Redis, Memcached, Dragonfly, and Aerospike
+    - name: Edge Cache
+      description: Globally distributed HTTP and object caches operated by CDN and edge platforms
+    - name: Edge KV
+      description: Programmable key-value stores deployed alongside edge compute platforms
+    - name: Distributed Data Grid
+      description: Multi-node, replicated, partitioned in-memory data platforms like Hazelcast, Apache Ignite, and GridGain
+
+crossReference:
+  - resource: cache-entries
+    operations:
+      - get
+      - set
+      - delete
+      - expire
+    workflows:
+      - Session Cache Lookup
+      - Cache Stampede Prevention
+    personas:
+      - Backend Engineer
+  - resource: purge-requests
+    operations:
+      - create
+      - get
+      - list
+    workflows:
+      - Edge Content Purge
+    personas:
+      - Platform Engineer
+  - resource: cache-policies
+    operations:
+      - list
+      - get
+      - update
+    workflows:
+      - Feature Flag Distribution at the Edge
+    personas:
+      - Platform Engineer

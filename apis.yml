@@ -1,0 +1,157 @@
+aid: caching
+name: Caching
+description: >-
+  An index and topic collection covering API-accessible caching services, in-memory data stores, key-value caches, and edge/CDN cache APIs. Caching reduces latency, lowers backend load, and improves API consumer experience
+  by serving frequently requested data from memory or geographically distributed edges. This collection covers managed in-memory data stores like Redis, Amazon ElastiCache, and Google Cloud Memorystore; high-throughput
+  alternatives such as Dragonfly, Aerospike, and Hazelcast; and edge cache services from Cloudflare, Fastly, Akamai, AWS CloudFront, and Vercel. It focuses on caching as a service or product, not on HTTP cache header
+  semantics handled at the gateway or proxy layer.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+- Cache
+- Caching
+- In-Memory Database
+- Edge Cache
+- Key-Value Store
+- CDN
+- Content Delivery Network
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/caching/refs/heads/main/apis.yml
+created: '2026-05-19'
+modified: '2026-05-19'
+specificationVersion: '0.19'
+apis: []
+network:
+- name: Aerospike
+  url: https://raw.githubusercontent.com/api-evangelist/aerospike/refs/heads/main/apis.yml
+- name: Akamai Technologies
+  url: https://raw.githubusercontent.com/api-evangelist/akamai-technologies/refs/heads/main/apis.yml
+- name: Amazon CloudFront
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudfront/refs/heads/main/apis.yml
+- name: Amazon ElastiCache
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-elasticache/refs/heads/main/apis.yml
+- name: Amazon MemoryDB
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/apis.yml
+- name: Apache Geode
+  url: https://raw.githubusercontent.com/api-evangelist/apache-geode/refs/heads/main/apis.yml
+- name: Apache Ignite
+  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/apis.yml
+- name: Azure Cache for Redis
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cache-for-redis/refs/heads/main/apis.yml
+- name: Azure Front Door
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-front-door/refs/heads/main/apis.yml
+- name: CloudFront
+  url: https://raw.githubusercontent.com/api-evangelist/cloudfront/refs/heads/main/apis.yml
+- name: Cloudflare
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/apis.yml
+- name: Cloudflare.com
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-com/refs/heads/main/apis.yml
+- name: Couchbase
+  url: https://raw.githubusercontent.com/api-evangelist/couchbase/refs/heads/main/apis.yml
+- name: Dragonfly
+  url: https://raw.githubusercontent.com/api-evangelist/dragonfly/refs/heads/main/apis.yml
+- name: Etcd
+  url: https://raw.githubusercontent.com/api-evangelist/etcd/refs/heads/main/apis.yml
+- name: Fastly
+  url: https://raw.githubusercontent.com/api-evangelist/fastly/refs/heads/main/apis.yml
+- name: Google Cloud CDN
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-cdn/refs/heads/main/apis.yml
+- name: Google Cloud Memorystore
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-memorystore/refs/heads/main/apis.yml
+- name: GridGain
+  url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/apis.yml
+- name: HashiCorp Consul
+  url: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/apis.yml
+- name: Hazelcast
+  url: https://raw.githubusercontent.com/api-evangelist/hazelcast/refs/heads/main/apis.yml
+- name: Imgix
+  url: https://raw.githubusercontent.com/api-evangelist/imgix/refs/heads/main/apis.yml
+- name: KVdb
+  url: https://raw.githubusercontent.com/api-evangelist/kvdb/refs/heads/main/apis.yml
+- name: NATS
+  url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/apis.yml
+- name: Netlify
+  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/apis.yml
+- name: QuantCDN
+  url: https://raw.githubusercontent.com/api-evangelist/quantcdn/refs/heads/main/apis.yml
+- name: Redis
+  url: https://raw.githubusercontent.com/api-evangelist/redis/refs/heads/main/apis.yml
+- name: Redis Streams
+  url: https://raw.githubusercontent.com/api-evangelist/redis-streams/refs/heads/main/apis.yml
+- name: Riak KV
+  url: https://raw.githubusercontent.com/api-evangelist/riak/refs/heads/main/apis.yml
+- name: Squid
+  url: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/apis.yml
+- name: Upstash
+  url: https://raw.githubusercontent.com/api-evangelist/upstash/refs/heads/main/apis.yml
+- name: Varnish Cache
+  url: https://raw.githubusercontent.com/api-evangelist/varnish/refs/heads/main/apis.yml
+- name: Vercel
+  url: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/apis.yml
+common:
+- type: Portal
+  url: https://apievangelist.com
+- type: GitHubOrganization
+  url: https://github.com/api-evangelist
+- type: Features
+  data:
+  - name: In-Memory Key-Value Storage
+    description: Caching services like Redis, Memcached, and Valkey store data in RAM keyed by strings, hashes, or structured types, returning values in sub-millisecond response times for hot data paths.
+  - name: Managed Cache as a Service
+    description: Cloud providers like Amazon ElastiCache, Google Cloud Memorystore, Azure Cache for Redis, and Upstash offer fully managed Redis and Memcached clusters with provisioning, patching, failover, and scaling handled by the provider.
+  - name: Edge and CDN Caching
+    description: Services like Cloudflare, Fastly, Akamai, and AWS CloudFront cache API responses, static assets, and dynamic content at globally distributed edge locations to minimize latency for geographically dispersed consumers.
+  - name: Cache Invalidation and Purge APIs
+    description: Edge and in-memory cache services expose purge, invalidate, and refresh endpoints that let applications evict stale entries by key, tag, surrogate-key, or URL pattern when underlying data changes.
+  - name: TTL and Eviction Policies
+    description: Cache entries are governed by time-to-live values and eviction strategies (LRU, LFU, allkeys-lru, volatile-ttl) configurable per key or per cache instance to balance hit rates against memory pressure.
+  - name: Distributed and Clustered Caches
+    description: Platforms like Hazelcast, Apache Ignite, GridGain, and Aerospike distribute cache data across multiple nodes with partitioning, replication, and near-cache support for large-scale, low-latency workloads.
+  - name: Edge Key-Value Stores
+    description: Newer products like Cloudflare Workers KV, Vercel Edge Config, Akamai EdgeKV, and Fastly KV Store expose programmatic key-value APIs at the edge, blending CDN distribution with application state.
+  - name: Cache Tagging and Surrogate Keys
+    description: Edge caches like Fastly and Cloudflare support surrogate keys and cache tags that group related objects so a single purge request can invalidate thousands of related entries atomically.
+- type: UseCases
+  data:
+  - name: Session and Token Caching
+    description: Applications cache authenticated sessions, JWTs, and OAuth tokens in Redis or Memcached so API gateways can validate requests without round-tripping to an identity provider on every call.
+  - name: API Response Caching
+    description: API gateways and edge networks cache GET responses keyed by URL and headers so repeated requests for the same resource are served from cache, reducing backend cost and latency.
+  - name: Database Query Result Caching
+    description: Backend services cache expensive database query results in Redis or Hazelcast with TTLs so subsequent identical queries return immediately without hitting the source database.
+  - name: Rate Limiting and Counters
+    description: Redis and similar in-memory stores back distributed rate limiters, leaderboards, and counters using atomic increment operations that scale to millions of operations per second.
+  - name: CDN Static Asset Delivery
+    description: Cloudflare, Fastly, CloudFront, and Akamai cache images, JavaScript, CSS, and other static assets at edge POPs to minimize origin bandwidth and serve global users with low latency.
+  - name: Edge Personalization and Feature Flags
+    description: Edge KV stores like Vercel Edge Config and Cloudflare Workers KV hold feature flags, A/B test configurations, and personalization data accessed by edge functions on every request.
+  - name: Real-Time Leaderboards and Pub/Sub
+    description: Redis sorted sets and pub/sub channels power real-time leaderboards, chat backends, and notification fanout patterns where in-memory speed is required.
+  - name: Pre-Warming and Cache Stampede Prevention
+    description: Applications pre-populate caches before traffic spikes and use techniques like singleflight and probabilistic early expiration backed by Redis to prevent thundering herds against origin systems.
+- type: Integrations
+  data:
+  - name: Redis
+    description: The most widely deployed open source in-memory data structure store, supporting strings, hashes, sets, sorted sets, streams, and pub/sub with sub-millisecond latency.
+  - name: Amazon ElastiCache
+    description: Fully managed in-memory cache service from AWS supporting Redis and Memcached engines with multi-AZ failover and seamless EC2 integration.
+  - name: Google Cloud Memorystore
+    description: Google Cloud's managed Redis and Memcached service with VPC integration, automatic patching, and high-availability replication.
+  - name: Azure Cache for Redis
+    description: Microsoft's managed Redis service offering Basic, Standard, Premium, and Enterprise tiers with geo-replication and persistence.
+  - name: Upstash
+    description: Serverless Redis and Kafka platform with per-request pricing, global replication, and an HTTP-based REST API for edge and serverless workloads.
+  - name: Cloudflare
+    description: Global edge network providing CDN caching, Workers KV, R2, Cache API, and surrogate-key purging across 300+ POPs worldwide.
+  - name: Fastly
+    description: Real-time edge cloud platform with instant purge, surrogate keys, VCL-based cache configuration, and the Fastly KV Store for edge state.
+  - name: Akamai Technologies
+    description: Enterprise CDN and edge platform with EdgeKV key-value storage, Ion delivery, and global edge caching across the world's largest distributed network.
+  - name: Vercel
+    description: Frontend cloud with Edge Config, KV (powered by Upstash), and CDN caching for Next.js and other frameworks deployed to its global edge network.
+  - name: Hazelcast
+    description: Open-source in-memory data grid for distributed caching, stream processing, and real-time analytics across clustered Java and polyglot applications.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+humanURL: https://apievangelist.com

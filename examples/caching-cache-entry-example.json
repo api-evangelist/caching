@@ -1,0 +1,14 @@
+{
+  "key": "session:user:42:profile",
+  "value": "{\"name\":\"Kin Lane\",\"plan\":\"pro\",\"locale\":\"en-US\"}",
+  "namespace": "sessions",
+  "ttl_seconds": 3600,
+  "expires_at": "2026-05-19T18:00:00Z",
+  "created_at": "2026-05-19T17:00:00Z",
+  "last_accessed_at": "2026-05-19T17:45:11Z",
+  "size_bytes": 218,
+  "tags": ["user:42", "profile"],
+  "eviction_policy": "allkeys-lru",
+  "data_type": "json",
+  "hit_count": 17
+}
