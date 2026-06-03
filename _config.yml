@@ -1,0 +1,24 @@
+title: Caching
+description: An index and topic collection covering API-accessible caching services,
+  in-memory data stores, key-value caches, and edge/CDN cache APIs. Caching reduces
+  latency, lowers backend load, and improves API consumer experience by serving frequently
+  requested data from memory or geographically distributed edges. This collection
+  covers managed in-memory data stores like Redis, Amazon ElastiCache, and Google
+  Cloud Memorystore; high-throughput alternatives such as Dragonfly, Aerospike, and
+  Hazelcast; and edge cache services from Cloudflare, Fastly, Akamai, AWS CloudFront,
+  and Vercel. It focuses on caching as a service or product, not on HTTP cache header
+  semantics handled at the gateway or proxy layer.
+url: https://caching.apievangelist.com
+collections:
+  api_stories:
+    output: false
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+- Dockerfile
+- examples
+- json-ld
+- json-schema
+- json-structure
+- vocabulary

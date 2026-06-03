@@ -1,0 +1,219 @@
+meta:
+  name: Caching
+  description: An index and topic collection covering API-accessible caching services,
+    in-memory data stores, key-value caches, and edge/CDN cache APIs. Caching reduces
+    latency, lowers backend load, and improves API consumer experience by serving
+    frequently requested data from memory or geographically distributed edges. This
+    collection covers managed in-memory data stores like Redis, Amazon ElastiCache,
+    and Google Cloud Memorystore; high-throughput alternatives such as Dragonfly,
+    Aerospike, and Hazelcast; and edge cache services from Cloudflare, Fastly, Akamai,
+    AWS CloudFront, and Vercel. It focuses on caching as a service or product, not
+    on HTTP cache header semantics handled at the gateway or proxy layer.
+  tags:
+  - Cache
+  - Caching
+  - In-Memory Database
+  - Edge Cache
+  - Key-Value Store
+  - CDN
+  - Content Delivery Network
+  portal: https://apievangelist.com
+  github: https://github.com/api-evangelist
+  repo: caching
+services_tools:
+- name: Aerospike
+  repo: https://github.com/api-evangelist/aerospike
+  apisio: https://providers.apis.io/providers/aerospike/
+- name: Akamai Technologies
+  repo: https://github.com/api-evangelist/akamai-technologies
+  apisio: https://providers.apis.io/providers/akamai-technologies/
+- name: Amazon CloudFront
+  repo: https://github.com/api-evangelist/amazon-cloudfront
+  apisio: https://providers.apis.io/providers/amazon-cloudfront/
+- name: Amazon ElastiCache
+  repo: https://github.com/api-evangelist/amazon-elasticache
+  apisio: https://providers.apis.io/providers/amazon-elasticache/
+- name: Amazon MemoryDB
+  repo: https://github.com/api-evangelist/amazon-memorydb
+  apisio: https://providers.apis.io/providers/amazon-memorydb/
+- name: Apache Geode
+  repo: https://github.com/api-evangelist/apache-geode
+  apisio: https://providers.apis.io/providers/apache-geode/
+- name: Apache Ignite
+  repo: https://github.com/api-evangelist/apache-ignite
+  apisio: https://providers.apis.io/providers/apache-ignite/
+- name: Azure Cache for Redis
+  repo: https://github.com/api-evangelist/microsoft-azure-cache-for-redis
+  apisio: https://providers.apis.io/providers/microsoft-azure-cache-for-redis/
+- name: Azure Front Door
+  repo: https://github.com/api-evangelist/microsoft-azure-front-door
+  apisio: https://providers.apis.io/providers/microsoft-azure-front-door/
+- name: CloudFront
+  repo: https://github.com/api-evangelist/cloudfront
+  apisio: https://providers.apis.io/providers/cloudfront/
+- name: Cloudflare
+  repo: https://github.com/api-evangelist/cloudflare
+  apisio: https://providers.apis.io/providers/cloudflare/
+- name: Cloudflare.com
+  repo: https://github.com/api-evangelist/cloudflare-com
+  apisio: https://providers.apis.io/providers/cloudflare-com/
+- name: Couchbase
+  repo: https://github.com/api-evangelist/couchbase
+  apisio: https://providers.apis.io/providers/couchbase/
+- name: Dragonfly
+  repo: https://github.com/api-evangelist/dragonfly
+  apisio: https://providers.apis.io/providers/dragonfly/
+- name: Etcd
+  repo: https://github.com/api-evangelist/etcd
+  apisio: https://providers.apis.io/providers/etcd/
+- name: Fastly
+  repo: https://github.com/api-evangelist/fastly
+  apisio: https://providers.apis.io/providers/fastly/
+- name: Google Cloud CDN
+  repo: https://github.com/api-evangelist/google-cloud-cdn
+  apisio: https://providers.apis.io/providers/google-cloud-cdn/
+- name: Google Cloud Memorystore
+  repo: https://github.com/api-evangelist/google-cloud-memorystore
+  apisio: https://providers.apis.io/providers/google-cloud-memorystore/
+- name: GridGain
+  repo: https://github.com/api-evangelist/gridgain
+  apisio: https://providers.apis.io/providers/gridgain/
+- name: HashiCorp Consul
+  repo: https://github.com/api-evangelist/consul
+  apisio: https://providers.apis.io/providers/consul/
+- name: Hazelcast
+  repo: https://github.com/api-evangelist/hazelcast
+  apisio: https://providers.apis.io/providers/hazelcast/
+- name: Imgix
+  repo: https://github.com/api-evangelist/imgix
+  apisio: https://providers.apis.io/providers/imgix/
+- name: KVdb
+  repo: https://github.com/api-evangelist/kvdb
+  apisio: https://providers.apis.io/providers/kvdb/
+- name: NATS
+  repo: https://github.com/api-evangelist/nats
+  apisio: https://providers.apis.io/providers/nats/
+- name: Netlify
+  repo: https://github.com/api-evangelist/netlify
+  apisio: https://providers.apis.io/providers/netlify/
+- name: QuantCDN
+  repo: https://github.com/api-evangelist/quantcdn
+  apisio: https://providers.apis.io/providers/quantcdn/
+- name: Redis
+  repo: https://github.com/api-evangelist/redis
+  apisio: https://providers.apis.io/providers/redis/
+- name: Redis Streams
+  repo: https://github.com/api-evangelist/redis-streams
+  apisio: https://providers.apis.io/providers/redis-streams/
+- name: Riak KV
+  repo: https://github.com/api-evangelist/riak
+  apisio: https://providers.apis.io/providers/riak/
+- name: Squid
+  repo: https://github.com/api-evangelist/squid
+  apisio: https://providers.apis.io/providers/squid/
+- name: Upstash
+  repo: https://github.com/api-evangelist/upstash
+  apisio: https://providers.apis.io/providers/upstash/
+- name: Varnish Cache
+  repo: https://github.com/api-evangelist/varnish
+  apisio: https://providers.apis.io/providers/varnish/
+- name: Vercel
+  repo: https://github.com/api-evangelist/vercel
+  apisio: https://providers.apis.io/providers/vercel/
+features:
+- name: In-Memory Key-Value Storage
+  description: Caching services like Redis, Memcached, and Valkey store data in RAM
+    keyed by strings, hashes, or structured types, returning values in sub-millisecond
+    response times for hot data paths.
+- name: Managed Cache as a Service
+  description: Cloud providers like Amazon ElastiCache, Google Cloud Memorystore,
+    Azure Cache for Redis, and Upstash offer fully managed Redis and Memcached clusters
+    with provisioning, patching, failover, and scaling handled by the provider.
+- name: Edge and CDN Caching
+  description: Services like Cloudflare, Fastly, Akamai, and AWS CloudFront cache
+    API responses, static assets, and dynamic content at globally distributed edge
+    locations to minimize latency for geographically dispersed consumers.
+- name: Cache Invalidation and Purge APIs
+  description: Edge and in-memory cache services expose purge, invalidate, and refresh
+    endpoints that let applications evict stale entries by key, tag, surrogate-key,
+    or URL pattern when underlying data changes.
+- name: TTL and Eviction Policies
+  description: Cache entries are governed by time-to-live values and eviction strategies
+    (LRU, LFU, allkeys-lru, volatile-ttl) configurable per key or per cache instance
+    to balance hit rates against memory pressure.
+- name: Distributed and Clustered Caches
+  description: Platforms like Hazelcast, Apache Ignite, GridGain, and Aerospike distribute
+    cache data across multiple nodes with partitioning, replication, and near-cache
+    support for large-scale, low-latency workloads.
+- name: Edge Key-Value Stores
+  description: Newer products like Cloudflare Workers KV, Vercel Edge Config, Akamai
+    EdgeKV, and Fastly KV Store expose programmatic key-value APIs at the edge, blending
+    CDN distribution with application state.
+- name: Cache Tagging and Surrogate Keys
+  description: Edge caches like Fastly and Cloudflare support surrogate keys and cache
+    tags that group related objects so a single purge request can invalidate thousands
+    of related entries atomically.
+use_cases:
+- name: Session and Token Caching
+  description: Applications cache authenticated sessions, JWTs, and OAuth tokens in
+    Redis or Memcached so API gateways can validate requests without round-tripping
+    to an identity provider on every call.
+- name: API Response Caching
+  description: API gateways and edge networks cache GET responses keyed by URL and
+    headers so repeated requests for the same resource are served from cache, reducing
+    backend cost and latency.
+- name: Database Query Result Caching
+  description: Backend services cache expensive database query results in Redis or
+    Hazelcast with TTLs so subsequent identical queries return immediately without
+    hitting the source database.
+- name: Rate Limiting and Counters
+  description: Redis and similar in-memory stores back distributed rate limiters,
+    leaderboards, and counters using atomic increment operations that scale to millions
+    of operations per second.
+- name: CDN Static Asset Delivery
+  description: Cloudflare, Fastly, CloudFront, and Akamai cache images, JavaScript,
+    CSS, and other static assets at edge POPs to minimize origin bandwidth and serve
+    global users with low latency.
+- name: Edge Personalization and Feature Flags
+  description: Edge KV stores like Vercel Edge Config and Cloudflare Workers KV hold
+    feature flags, A/B test configurations, and personalization data accessed by edge
+    functions on every request.
+- name: Real-Time Leaderboards and Pub/Sub
+  description: Redis sorted sets and pub/sub channels power real-time leaderboards,
+    chat backends, and notification fanout patterns where in-memory speed is required.
+- name: Pre-Warming and Cache Stampede Prevention
+  description: Applications pre-populate caches before traffic spikes and use techniques
+    like singleflight and probabilistic early expiration backed by Redis to prevent
+    thundering herds against origin systems.
+integrations:
+- name: Redis
+  description: The most widely deployed open source in-memory data structure store,
+    supporting strings, hashes, sets, sorted sets, streams, and pub/sub with sub-millisecond
+    latency.
+- name: Amazon ElastiCache
+  description: Fully managed in-memory cache service from AWS supporting Redis and
+    Memcached engines with multi-AZ failover and seamless EC2 integration.
+- name: Google Cloud Memorystore
+  description: Google Cloud's managed Redis and Memcached service with VPC integration,
+    automatic patching, and high-availability replication.
+- name: Azure Cache for Redis
+  description: Microsoft's managed Redis service offering Basic, Standard, Premium,
+    and Enterprise tiers with geo-replication and persistence.
+- name: Upstash
+  description: Serverless Redis and Kafka platform with per-request pricing, global
+    replication, and an HTTP-based REST API for edge and serverless workloads.
+- name: Cloudflare
+  description: Global edge network providing CDN caching, Workers KV, R2, Cache API,
+    and surrogate-key purging across 300+ POPs worldwide.
+- name: Fastly
+  description: Real-time edge cloud platform with instant purge, surrogate keys, VCL-based
+    cache configuration, and the Fastly KV Store for edge state.
+- name: Akamai Technologies
+  description: Enterprise CDN and edge platform with EdgeKV key-value storage, Ion
+    delivery, and global edge caching across the world's largest distributed network.
+- name: Vercel
+  description: Frontend cloud with Edge Config, KV (powered by Upstash), and CDN caching
+    for Next.js and other frameworks deployed to its global edge network.
+- name: Hazelcast
+  description: Open-source in-memory data grid for distributed caching, stream processing,
+    and real-time analytics across clustered Java and polyglot applications.
