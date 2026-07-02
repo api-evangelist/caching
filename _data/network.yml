@@ -1,0 +1,30 @@
+related:
+- name: Database
+  url: https://database.apievangelist.com
+  icon: https://database.apievangelist.com/icon.png
+  description: An index and topic collection covering managed databases and database-as-a-service offerings
+    exposing APIs. Database APIs enable developers to provision, configure, query,…
+- name: Network
+  url: https://network.apievangelist.com
+  icon: https://network.apievangelist.com/icon.png
+  description: ''
+- name: Migration
+  url: https://migration.apievangelist.com
+  icon: https://migration.apievangelist.com/icon.png
+  description: An index and topic collection covering data migration, cloud migration, database migration,
+    and API migration platforms and services. Migration platforms help organizations move…
+- name: Webhooks
+  url: https://webhooks.apievangelist.com
+  icon: https://webhooks.apievangelist.com/icon.png
+  description: An index and topic collection covering webhook delivery, ingestion, transformation, retry,
+    and inspection APIs. Webhooks are the dominant HTTP pattern for asynchronous,…
+- name: Internet of Things
+  url: https://internet-of-things.apievangelist.com
+  icon: https://internet-of-things.apievangelist.com/icon.png
+  description: An index and topic collection covering consumer and commercial Internet of Things (IoT)
+    platforms, smart home ecosystems, connected device APIs, and the messaging and edge…
+- name: Encryption
+  url: https://encryption.apievangelist.com
+  icon: https://encryption.apievangelist.com/icon.png
+  description: An index and topic collection covering encryption services, key management systems (KMS),
+    hardware security modules (HSM), envelope encryption, end-to-end encryption SDKs,…
