@@ -14,6 +14,13 @@ tags:
 - Edge Cache
 - Key-Value Store
 - CDN
+tags_raw:
+- Cache
+- Caching
+- In-Memory Database
+- Edge Cache
+- Key-Value Store
+- CDN
 - Content Delivery Network
 url: >-
   https://raw.githubusercontent.com/api-evangelist/caching/refs/heads/main/apis.yml
