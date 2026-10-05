@@ -1,5 +1,6 @@
 aid: caching
 name: Caching
+kind: topic
 description: >-
   An index and topic collection covering API-accessible caching services, in-memory data stores, key-value caches, and edge/CDN cache APIs. Caching reduces latency, lowers backend load, and improves API consumer experience
   by serving frequently requested data from memory or geographically distributed edges. This collection covers managed in-memory data stores like Redis, Amazon ElastiCache, and Google Cloud Memorystore; high-throughput
