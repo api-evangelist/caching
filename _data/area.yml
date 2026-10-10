@@ -16,7 +16,6 @@ meta:
   - Edge Cache
   - Key-Value Store
   - CDN
-  - Content Delivery Network
   portal: https://apievangelist.com
   github: https://github.com/api-evangelist
   repo: caching
