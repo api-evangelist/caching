@@ -1,7 +1,7 @@
 ---
-title: Storefront Catalog MCP now implements UCP
-link: https://shopify.dev/changelog/storefront-catalog-mcp-now-implements-ucp
-published: '2026-05-30'
+title: Storefront MCP cart tools are being deprecated in favour of UCP Cart MCP
+link: https://shopify.dev/changelog/storefront-mcp-cart-tools-are-being-deprecated-in-favour-of-ucp-cart-mcp
+published: '2026-06-24'
 provider: shopify-admin
 repo: https://github.com/api-evangelist/shopify-admin
 domain: shopify.dev
