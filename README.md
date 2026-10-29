@@ -1,129 +1,97 @@
-# Caching (caching)
+# Caching
+
+<!-- API-EVANGELIST-PROVENANCE:BEGIN -->
+> ### About this repository
+>
+> **This is not our API.** This repository is an independent, third-party profile of a company's
+> **publicly available** API surface, maintained by [API Evangelist](https://apievangelist.com).
+> API Evangelist does not operate, host, resell, or support this company's APIs, and is not
+> affiliated with or endorsed by the company unless stated on the profile.
+>
+> **Where the information came from.** Everything here is assembled from material a member of the
+> public can reach with a browser and no credentials — the company's own website, developer portal
+> and documentation, the specifications it publishes for public use (OpenAPI, AsyncAPI, JSON Schema,
+> `apis.json`, `llms.txt` and similar), its public repositories, and its public status, pricing and
+> changelog pages. **Nothing here is obtained by breaching a system, defeating an access control, or
+> using credentials of any kind.**
+>
+> **The rating is an independent assessment.** The Kin Score and Agent Readiness rating are
+> independently calculated scores of a company's *public* API artifacts, produced by API Evangelist
+> against a published rubric. They are not certifications, endorsements, security assessments, or
+> audits, and they score published artifacts — not the quality, safety, or security of the software.
+>
+> **Corrections, re-scores, and removal are free.** No partnership, contract, or purchase is
+> required, and you do not need to justify the request.
+>
+> - **Something wrong?** Open an issue on this repository, or email
+>   [info@apievangelist.com](mailto:info@apievangelist.com).
+> - **Published something new?** Ask for a re-score and we will re-run the rating.
+> - **Want the listing taken down?** Say so and we will honor it. The profile is reduced to your
+>   company name, a factual description, and a link to your own site, and the company is recorded as
+>   **unrated** — never scored zero for having asked.
+>
+> **Response times.** Acknowledgement within **one business day**; removal or restriction within
+> **two business days**; corrections and re-scores within **five business days**.
+>
+> **Not from the company, and here with a question?** You are welcome here — we would rather be the
+> front line and point you the right way than have a good report go nowhere. What this repository
+> can answer is narrow, though, so it is worth knowing who you are actually looking for:
+>
+> - **A question about how the API works, an account, billing, or a bug in the service** — that is
+>   the company's own support, not us. We profile this API; we do not operate it and cannot see
+>   your account.
+> - **A bug in an open-source project we only catalog** — file it on that project's own repository.
+>   This has happened with a real and correct bug report that reached us instead of the people who
+>   could fix it, which helped nobody.
+> - **Anything about this listing itself** — the description, the tags, the rating, a missing or
+>   wrong artifact — is ours. Open an issue here.
+> - **Not sure, or something general about API Evangelist or APIs.io** — open an issue on the
+>   [APIs.io Inbox](https://github.com/api-search/inbox) and we will route it.
+>
+> **This repository contains no software, and we will never ask you to download anything.** There is
+> no build, release, installer, or binary here — only text and machine-readable API descriptions, so
+> there is nothing here that can be "corrupt" or need "repairing". Any issue, comment, or email
+> claiming otherwise and offering a download link is not from us and is hostile. Do not follow the
+> link; it is a lure. Report it to GitHub and, if you like, tell us at
+> [info@apievangelist.com](mailto:info@apievangelist.com) so we can take it down.
+>
+> **On a security or compliance team?** Email
+> [info@apievangelist.com](mailto:info@apievangelist.com) with *security* in the subject line and
+> you will get a person, not a form. We will tell you exactly which public URLs this profile was
+> built from so your team can see the same surface we did, and we will take the listing down on
+> request while you work through it.
+>
+> Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
+<!-- API-EVANGELIST-PROVENANCE:END -->
+
 An index and topic collection covering API-accessible caching services, in-memory data stores, key-value caches, and edge/CDN cache APIs. Caching reduces latency, lowers backend load, and improves API consumer experience by serving frequently requested data from memory or geographically distributed edges. This collection covers managed in-memory data stores like Redis, Amazon ElastiCache, and Google Cloud Memorystore; high-throughput alternatives such as Dragonfly, Aerospike, and Hazelcast; and edge cache services from Cloudflare, Fastly, Akamai, AWS CloudFront, and Vercel. It focuses on caching as a service or product, not on HTTP cache header semantics handled at the gateway or proxy layer.
 
-**URL:** [https://apievangelist.com](https://apievangelist.com)
+**Areas:** Cache · Caching · In-Memory Database · Edge Cache · Key-Value Store · CDN
 
-## Tags:
+## Caching on APIs.io
 
- - Cache, Caching, In-Memory Database, Edge Cache, Key-Value Store, CDN, Content Delivery Network
+Everything profiled for Caching is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/caching/](https://apis.io/providers/caching/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+## Where to find this API
 
-- **Created:** 2026-05-19
-- **Modified:** 2026-05-19
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-## Common Properties
+- [GitHub](https://github.com/api-evangelist)
 
-- [Portal](https://apievangelist.com)
-- [GitHubOrganization](https://github.com/api-evangelist)
-- [JSONSchema - Cache Entry Schema](https://raw.githubusercontent.com/api-evangelist/caching/refs/heads/main/json-schema/caching-cache-entry-schema.json)
-- [JSONSchema - Purge Request Schema](https://raw.githubusercontent.com/api-evangelist/caching/refs/heads/main/json-schema/caching-purge-request-schema.json)
-- [JSON-LD](https://raw.githubusercontent.com/api-evangelist/caching/refs/heads/main/json-ld/caching-context.jsonld)
-- [Vocabulary](https://raw.githubusercontent.com/api-evangelist/caching/refs/heads/main/vocabulary/caching-vocabulary.yaml)
+## API Evangelist rating
 
-## Features
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
 
-| Name | Description |
-|------|-------------|
-| In-Memory Key-Value Storage | Caching services like Redis, Memcached, and Valkey store data in RAM keyed by strings, hashes, or structured types, returning values in sub-millisecond response times for hot data paths. |
-| Managed Cache as a Service | Cloud providers like Amazon ElastiCache, Google Cloud Memorystore, Azure Cache for Redis, and Upstash offer fully managed Redis and Memcached clusters with provisioning, patching, failover, and scaling handled by the provider. |
-| Edge and CDN Caching | Services like Cloudflare, Fastly, Akamai, and AWS CloudFront cache API responses, static assets, and dynamic content at globally distributed edge locations to minimize latency for geographically dispersed consumers. |
-| Cache Invalidation and Purge APIs | Edge and in-memory cache services expose purge, invalidate, and refresh endpoints that let applications evict stale entries by key, tag, surrogate-key, or URL pattern when underlying data changes. |
-| TTL and Eviction Policies | Cache entries are governed by time-to-live values and eviction strategies (LRU, LFU, allkeys-lru, volatile-ttl) configurable per key or per cache instance to balance hit rates against memory pressure. |
-| Distributed and Clustered Caches | Platforms like Hazelcast, Apache Ignite, GridGain, and Aerospike distribute cache data across multiple nodes with partitioning, replication, and near-cache support for large-scale, low-latency workloads. |
-| Edge Key-Value Stores | Newer products like Cloudflare Workers KV, Vercel Edge Config, Akamai EdgeKV, and Fastly KV Store expose programmatic key-value APIs at the edge, blending CDN distribution with application state. |
-| Cache Tagging and Surrogate Keys | Edge caches like Fastly and Cloudflare support surrogate keys and cache tags that group related objects so a single purge request can invalidate thousands of related entries atomically. |
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
 
-## Use Cases
+## How this profile is made
 
-| Name | Description |
-|------|-------------|
-| Session and Token Caching | Cache authenticated sessions, JWTs, and OAuth tokens in Redis or Memcached so API gateways can validate requests without round-tripping to an identity provider on every call. |
-| API Response Caching | API gateways and edge networks cache GET responses keyed by URL and headers so repeated requests for the same resource are served from cache. |
-| Database Query Result Caching | Backend services cache expensive database query results in Redis or Hazelcast with TTLs so subsequent identical queries return immediately. |
-| Rate Limiting and Counters | Redis and similar in-memory stores back distributed rate limiters, leaderboards, and counters using atomic increment operations. |
-| CDN Static Asset Delivery | Cloudflare, Fastly, CloudFront, and Akamai cache images, JavaScript, CSS, and other static assets at edge POPs to serve global users with low latency. |
-| Edge Personalization and Feature Flags | Edge KV stores like Vercel Edge Config and Cloudflare Workers KV hold feature flags, A/B test configurations, and personalization data accessed by edge functions. |
-| Real-Time Leaderboards and Pub/Sub | Redis sorted sets and pub/sub channels power real-time leaderboards, chat backends, and notification fanout patterns. |
-| Pre-Warming and Cache Stampede Prevention | Applications pre-populate caches before traffic spikes and use Redis-backed singleflight to prevent thundering herds against origin systems. |
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Integrations
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Caching: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-| Name | Description |
-|------|-------------|
-| Redis | The most widely deployed open source in-memory data structure store, supporting strings, hashes, sets, sorted sets, streams, and pub/sub with sub-millisecond latency. |
-| Amazon ElastiCache | Fully managed in-memory cache service from AWS supporting Redis and Memcached engines with multi-AZ failover and seamless EC2 integration. |
-| Google Cloud Memorystore | Google Cloud's managed Redis and Memcached service with VPC integration, automatic patching, and high-availability replication. |
-| Azure Cache for Redis | Microsoft's managed Redis service offering Basic, Standard, Premium, and Enterprise tiers with geo-replication and persistence. |
-| Upstash | Serverless Redis and Kafka platform with per-request pricing, global replication, and an HTTP-based REST API for edge and serverless workloads. |
-| Cloudflare | Global edge network providing CDN caching, Workers KV, R2, Cache API, and surrogate-key purging across 300+ POPs worldwide. |
-| Fastly | Real-time edge cloud platform with instant purge, surrogate keys, VCL-based cache configuration, and the Fastly KV Store for edge state. |
-| Akamai Technologies | Enterprise CDN and edge platform with EdgeKV key-value storage, Ion delivery, and global edge caching across the world's largest distributed network. |
-| Vercel | Frontend cloud with Edge Config, KV (powered by Upstash), and CDN caching for Next.js and other frameworks deployed to its global edge network. |
-| Hazelcast | Open-source in-memory data grid for distributed caching, stream processing, and real-time analytics across clustered Java and polyglot applications. |
+## Open an issue
 
-## Artifacts
-
-Machine-readable API specifications organized by format.
-
-### JSON Schema
-
-- [Cache Entry Schema](json-schema/caching-cache-entry-schema.json)
-- [Purge Request Schema](json-schema/caching-purge-request-schema.json)
-
-### JSON Structure
-
-- [Cache Entry Structure](json-structure/caching-cache-entry-structure.json)
-- [Purge Request Structure](json-structure/caching-purge-request-structure.json)
-
-### JSON-LD
-
-- [Caching Context](json-ld/caching-context.jsonld)
-
-## Vocabulary
-
-- [Caching Vocabulary](vocabulary/caching-vocabulary.yaml) — Unified taxonomy mapping resources, actions, workflows, and personas across in-memory caches, key-value stores, and edge CDN caching services
-
-## Network
-
-This index references the following caching, in-memory data store, and edge cache repositories:
-
-- [Aerospike](https://github.com/api-evangelist/aerospike)
-- [Akamai Technologies](https://github.com/api-evangelist/akamai-technologies)
-- [Amazon CloudFront](https://github.com/api-evangelist/amazon-cloudfront)
-- [Amazon ElastiCache](https://github.com/api-evangelist/amazon-elasticache)
-- [Amazon MemoryDB](https://github.com/api-evangelist/amazon-memorydb)
-- [Apache Geode](https://github.com/api-evangelist/apache-geode)
-- [Apache Ignite](https://github.com/api-evangelist/apache-ignite)
-- [Azure Cache for Redis](https://github.com/api-evangelist/microsoft-azure-cache-for-redis)
-- [Azure Front Door](https://github.com/api-evangelist/microsoft-azure-front-door)
-- [CloudFront](https://github.com/api-evangelist/cloudfront)
-- [Cloudflare](https://github.com/api-evangelist/cloudflare)
-- [Cloudflare.com](https://github.com/api-evangelist/cloudflare-com)
-- [Couchbase](https://github.com/api-evangelist/couchbase)
-- [Dragonfly](https://github.com/api-evangelist/dragonfly)
-- [Etcd](https://github.com/api-evangelist/etcd)
-- [Fastly](https://github.com/api-evangelist/fastly)
-- [Google Cloud CDN](https://github.com/api-evangelist/google-cloud-cdn)
-- [Google Cloud Memorystore](https://github.com/api-evangelist/google-cloud-memorystore)
-- [GridGain](https://github.com/api-evangelist/gridgain)
-- [HashiCorp Consul](https://github.com/api-evangelist/consul)
-- [Hazelcast](https://github.com/api-evangelist/hazelcast)
-- [Imgix](https://github.com/api-evangelist/imgix)
-- [KVdb](https://github.com/api-evangelist/kvdb)
-- [NATS](https://github.com/api-evangelist/nats)
-- [Netlify](https://github.com/api-evangelist/netlify)
-- [QuantCDN](https://github.com/api-evangelist/quantcdn)
-- [Redis](https://github.com/api-evangelist/redis)
-- [Redis Streams](https://github.com/api-evangelist/redis-streams)
-- [Riak KV](https://github.com/api-evangelist/riak)
-- [Squid](https://github.com/api-evangelist/squid)
-- [Upstash](https://github.com/api-evangelist/upstash)
-- [Varnish Cache](https://github.com/api-evangelist/varnish)
-- [Vercel](https://github.com/api-evangelist/vercel)
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/caching/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
